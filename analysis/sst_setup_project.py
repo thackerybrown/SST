@@ -6,6 +6,8 @@ import sys
 import imp
 import os.path as op
 import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
 
 # for dprime
 from scipy.stats import norm
@@ -97,3 +99,39 @@ def add_subinfo(data, info_dict, col_name):
             data.loc[data.subid.isin(info_dict[info]), col_name] = info
 
     return data
+    
+# Plotting functions
+def plot_environment(env, dp=dp, proj=proj):
+
+    fig = plt.figure(figsize=(4, 4))
+    plt.ylim(-60,60)
+    plt.xlim(-60,60)
+
+    goal_types = proj['goals'][env].keys()
+    for goal_type in goal_types:
+        goal = proj['goals'][env][goal_type]
+        color = proj['palette'][goal_type]
+
+        plt.scatter(dp[(dp.env == env) & (dp.c3 == goal)].x.astype(float),  
+                    dp[(dp.env == env) & (dp.c3 == goal)].y.astype(float),  
+                    s=100, marker='o', c=color, label=goal_type)
+    plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+    ax = fig.get_axes()[0]
+    return fig, ax
+
+
+def plot_paths(env, subj, dp=dp, proj=proj):
+    fig, ax = plot_environment(env)
+    plt.scatter(dp[(dp.env == env) & (dp.subid == subj) & (dp.c3 == "PandaEPL_avatar")].x.astype(float),  
+                dp[(dp.env == env) & (dp.subid == subj) & (dp.c3 == "PandaEPL_avatar")].y.astype(float),
+                s=5, marker='.')
+	ax = fig.get_axes()[0]
+    return fig, ax
+    
+def plot_path(env, subj, goal, dpt=dpt, proj=proj):
+    fig, ax = plot_environment(env)
+    plt.scatter(dpt[(dpt.env == env) & (dpt.subid == subj) & (dpt.c3 == "PandaEPL_avatar") & (dpt.instructions == goal)].x.astype(float),  
+                dpt[(dpt.env == env) & (dpt.subid == subj) & (dpt.c3 == "PandaEPL_avatar") & (dpt.instructions == goal)].y.astype(float),
+                s=5, marker='.')
+	ax = fig.get_axes()[0]
+    return fig, ax
