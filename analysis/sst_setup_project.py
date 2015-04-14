@@ -124,7 +124,7 @@ def plot_paths(env, subj, dp=dp, proj=proj):
     fig, ax = plot_environment(env)
     plt.scatter(dp[(dp.env == env) & (dp.subid == subj) & (dp.c3 == "PandaEPL_avatar")].x.astype(float),  
                 dp[(dp.env == env) & (dp.subid == subj) & (dp.c3 == "PandaEPL_avatar")].y.astype(float),
-                s=5, marker='.')
+                s=.5, marker='.', alpha=.3)
 	ax = fig.get_axes()[0]
     return fig, ax
     
@@ -132,6 +132,14 @@ def plot_path(env, subj, goal, dpt=dpt, proj=proj):
     fig, ax = plot_environment(env)
     plt.scatter(dpt[(dpt.env == env) & (dpt.subid == subj) & (dpt.c3 == "PandaEPL_avatar") & (dpt.instructions == goal)].x.astype(float),  
                 dpt[(dpt.env == env) & (dpt.subid == subj) & (dpt.c3 == "PandaEPL_avatar") & (dpt.instructions == goal)].y.astype(float),
-                s=5, marker='.')
+                s=.5, marker='.', alpha=.3)
 	ax = fig.get_axes()[0]
+    return fig, ax
+    
+def plot_path_group(env, subj_list, goal, dpt=dpt, proj=proj):
+    fig, ax = plot_environment(env)
+    plt.scatter(dpt[(dpt.env == env) & (dpt.subid.isin(subj_list)) & (dpt.c3 == "PandaEPL_avatar") & (dpt.instructions == goal)].x.astype(float),  
+                dpt[(dpt.env == env) & (dpt.subid.isin(subj_list)) & (dpt.c3 == "PandaEPL_avatar") & (dpt.instructions == goal)].y.astype(float),
+                s=.5, marker='.', alpha=.3)
+    ax = fig.get_axes()[0]
     return fig, ax
