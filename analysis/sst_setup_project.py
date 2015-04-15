@@ -143,3 +143,4 @@ def plot_path_group(env, subj_list, goal, dpt=dpt, proj=proj):
                 s=.5, marker='.', alpha=.3)
     ax = fig.get_axes()[0]
     return fig, ax
+    
