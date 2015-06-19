@@ -61,6 +61,22 @@ Screen(Window,'Flip');
 
 %% Pre-load images 
 
+S.LjustMult = 0.1;
+S.res = myRect(3:4);
+S.instrWrap = 65;
+
+% Print instructions
+Screen(Window,'FillRect', S.screenColor);
+message = ['In this task you will be tested on which items are found in each town. You will be presented ', ...
+    'with an image from each town, and asked to recall the 3 items found in that town, in any order. To enter your responses, ', ...
+    'you will type in a brief description of a given item, and press the RETURN key to advance to the next item (or town). If you ', ...
+    'can''t remember all the items, please just type ''?'', and then RETURN. ', ...
+    'Any questions? \n\nWhen you''re ready to start, please press the ''g'' button.'];
+SG_DrawFormattedText(Window,message,S.res(1)*S.LjustMult,'center',S.textColor,S.instrWrap,1.5);
+Screen(Window,'Flip');
+getKey('g',S.kbNum);
+
+
 % Print reminder
 Screen(Window,'FillRect', S.screenColor);
 message = ['BLOCK ' num2str(block)];
@@ -95,7 +111,7 @@ end
 % get ready screen
 Screen(Window,'FillRect', S.screenColor);
 message = ['Get ready!'];
-DrawFormattedText(Window,message,'center',ycenter-100,S.textColor);  
+DrawFormattedText(Window,message,'center',ycenter,S.textColor);  
 Screen(Window,'Flip');
 
 % get cursor out of the way
