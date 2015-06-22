@@ -32,7 +32,7 @@ else
 end
 
 if ~isfield(expParams,'instrWrap')
-    instrWrap = 80;   % ALL results files will save here
+    instrWrap = 90;   % ALL results files will save here
 else
     instrWrap = expParams.instrWrap;
 end

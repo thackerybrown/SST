@@ -33,7 +33,7 @@ function expParams = QSRparams(w,rect,p,PrePost)
     %%% Do you want to change the size of the text for instructions, prompt, or questions?
         instructionsFontSize = 30;
         promptFontSize = 28;
-        questionFontSize = 28;
+        questionFontSize = 24;
 
         
         

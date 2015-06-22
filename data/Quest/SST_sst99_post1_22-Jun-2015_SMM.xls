@@ -7,3 +7,12 @@ SST	post1	06-22-15	sst99	T5	4	1	2	1.5064	SMM	1	1
 SST	post1	06-22-15	sst99	T6	5	0	5	0.60024	SMM	1	1	
 SST	post1	06-22-15	sst99	T7	5	1	1	1.4332	SMM	1	1	
 SST	post1	06-22-15	sst99	T8	1	0	1	0.74684	SMM	1	1	
+expName	groupName	Date	subjectID	questionLabel	rawRating	isReversed	adjustedRating	respRT	subScaleName	subScaleNum	promptNum	
+SST	post1	06-22-15	sst99	T1	4	1	2	0.9994	SMM	1	1	
+SST	post1	06-22-15	sst99	T2	4	0	4	0.60022	SMM	1	1	
+SST	post1	06-22-15	sst99	T3	4	1	2	1.0916	SMM	1	1	
+SST	post1	06-22-15	sst99	T4	4	0	4	1.1076	SMM	1	1	
+SST	post1	06-22-15	sst99	T5	3	1	3	0.60024	SMM	1	1	
+SST	post1	06-22-15	sst99	T6	3	0	3	0.60022	SMM	1	1	
+SST	post1	06-22-15	sst99	T7	3	1	3	1.1284	SMM	1	1	
+SST	post1	06-22-15	sst99	T8	3	0	3	0.60022	SMM	1	1	
