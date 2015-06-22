@@ -143,10 +143,10 @@ switch taskType
             % Trait/State Questionnaires
             S.Questgroup = ['post',num2str(1)]; % version of questionnaires
             S.QuestscaFlag = 0; % Have runQuest close screen and clear vars when done? (NO)
-            S.questionnaire_params = {'BISBASparams','SMMparams','STAI_Tparams'}; % for end of block assessment
+            S.questionnaire_params = {'QSRparams', 'QSR2params', 'BISBASparams','SMMparams','STAI_Tparams'}; % for end of block assessment
             [theData.Questp,theData.Questsession,theData.Questpars] = ...
                 runQuestionnaires(S.questionnaire_params,S.study_name,num2str(S.subID),S.Questgroup,...
-                S.screenNumber,S.boxNum,S,S.QuestscaFlag,thePath);
+                S.screenNumber,S,S.QuestscaFlag,thePath);
         catch err
            %open file
            cd(thePath.data)

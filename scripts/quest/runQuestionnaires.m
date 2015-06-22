@@ -1,4 +1,4 @@
-function [p,Questsession,Questpars] = runQuestionnaires(paramFiles,study,subID,group,screenNum,boxNum,screenParams,clearFlag,thePath)
+function [p,Questsession,Questpars] = runQuestionnaires(paramFiles,study,subID,group,screenNum,screenParams,clearFlag,thePath)
 % Possible inputs to runQuest (run Self-Report Measure):
 %     1) paramFiles - parameter files that you have already saved for your Quest(s) (e.g., {'BFIparams','NFCparams'})
 %     2) study - initials that will identify your study (e.g., ABC or '')

@@ -32,7 +32,7 @@ else
 end
 
 if ~isfield(expParams,'instrWrap')
-    instrWrap = 55;   % ALL results files will save here
+    instrWrap = 80;   % ALL results files will save here
 else
     instrWrap = expParams.instrWrap;
 end
@@ -161,13 +161,13 @@ for trial=1:length(expParams.Qs)
             Screen('TextSize',wPtr,qTxSize-params.pcFontAdj);
             if isfield(expParams,'Qjustify')
                 if strcmp(expParams.Qjustify,'center')
-                    SG_DrawFormattedText(wPtr,expParams.Qs{trial,wi},expParams.Qjustify,'center',tx,45, 1.5);
+                    SG_DrawFormattedText(wPtr,expParams.Qs{trial,wi},expParams.Qjustify,'center',tx,instrWrap, 1.5);
                 else
-                    SG_DrawFormattedText(wPtr,expParams.Qs{trial,wi},round(res(1)*expParams.Qjustify),'center',tx,45, 1.5);
+                    SG_DrawFormattedText(wPtr,expParams.Qs{trial,wi},round(res(1)*expParams.Qjustify),'center',tx,instrWrap, 1.5);
                 end
             else
 
-                SG_DrawFormattedText(wPtr,expParams.Qs{trial},qxPos,round(res(2)*qMultY),tx,50, 1.5);
+                SG_DrawFormattedText(wPtr,expParams.Qs{trial},qxPos,round(res(2)*qMultY),tx,instrWrap, 1.5);
             end
         else
             Screen('TextSize',wPtr,qTxSize-params.pcFontAdj);
@@ -177,12 +177,12 @@ for trial=1:length(expParams.Qs)
 
                 if isfield(expParams,'Qjustify')
                     if strcmp(expParams.Qjustify,'center')
-                        SG_DrawFormattedText(wPtr,expParams.Qs{trial,wi},expParams.Qjustify,'center',tx,45, 1.5);
+                        SG_DrawFormattedText(wPtr,expParams.Qs{trial,wi},expParams.Qjustify,'center',tx,instrWrap, 1.5);
                     else
-                        SG_DrawFormattedText(wPtr,expParams.Qs{trial,wi},round(res(1)*expParams.Qjustify),'center',tx,45, 1.5);                        
+                        SG_DrawFormattedText(wPtr,expParams.Qs{trial,wi},round(res(1)*expParams.Qjustify),'center',tx,instrWrap, 1.5);                        
                     end
                 else
-                    SG_DrawFormattedText(wPtr,expParams.Qs{trial,wi},round(res(1)*params.LjustMult),'center',tx,45, 1.5);
+                    SG_DrawFormattedText(wPtr,expParams.Qs{trial,wi},round(res(1)*params.LjustMult),'center',tx,instrWrap, 1.5);
                 end
                 
                 HideCursor;
@@ -193,7 +193,7 @@ for trial=1:length(expParams.Qs)
                 KbWait(params.deviceNum);
                 results.RT(trial,wi) = GetSecs - scrStart;
             else
-                SG_DrawFormattedText(wPtr,expParams.Qs{trial,wi},'center','center',tx,45, 1.5);
+                SG_DrawFormattedText(wPtr,expParams.Qs{trial,wi},'center','center',tx,instrWrap, 1.5);
             end
         end
 
