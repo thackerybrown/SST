@@ -25,6 +25,7 @@ switch strcat(hostname)
         thePath.felix = ['/Users/waglab/Code/felix/scripts'];
     otherwise % steph
         thePath.main = ['/Users/sgagnon/Experiments/', exp_name];
+        thePath.felix = ['/Users/sgagnon/Code/felix/scripts'];
 end
 
 if ismac
