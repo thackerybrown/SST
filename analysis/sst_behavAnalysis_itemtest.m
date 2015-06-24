@@ -13,7 +13,7 @@ numItems = 3;
 % Create txt file
 itemTestTxt = [subID '_behav_itemTest.csv'];
 % fid = fopen(itemTestTxt,'wt');
-fid = fopen(itemTestTxt,'wt');
+fid = fopen(itemTestTxt,'w');
 fprintf(fid, 'index,run,trial,onset,duration,town,pic,itemNum,resp,respRT\n');
 formatString = '%d,%d,%d,%.4f,%.4f,%s,%s,%d,%s,%.4f\n';
 
