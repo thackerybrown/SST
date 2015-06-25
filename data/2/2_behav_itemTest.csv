@@ -71,3 +71,75 @@ index,run,trial,onset,duration,town,pic,itemNum,resp,respRT
 70,2,12,134.7098,11.6505,Town5,env5.jpg,1,Benedict Cumberbatch,5.5712
 71,2,12,134.7098,11.6505,Town5,env5.jpg,2,Flamingo,1.5900
 72,2,12,134.7098,11.6505,Town5,env5.jpg,3,Hammers,4.4875
+73,3,1,1.0012,13.6787,Town4,env4.jpg,1,Natalie Portman,9.4352
+74,3,1,1.0012,13.6787,Town4,env4.jpg,2,Alligator,3.0718
+75,3,1,1.0012,13.6787,Town4,env4.jpg,3,Saw,1.1677
+76,3,2,14.7105,9.2567,Town2,env2.jpg,1,Mark Zuckerberg,5.1278
+77,3,2,14.7105,9.2567,Town2,env2.jpg,2,Cucumbers,2.0164
+78,3,2,14.7105,9.2567,Town2,env2.jpg,3,Kitten,2.1107
+79,3,3,23.9982,7.6242,Town10,env10.jpg,1,Grapes,3.6727
+80,3,3,23.9982,7.6242,Town10,env10.jpg,2,Duck,1.5755
+81,3,3,23.9982,7.6242,Town10,env10.jpg,3,Katy Perry,2.3742
+82,3,4,31.6528,7.6429,Town6,env6.jpg,1,?,6.3454
+83,3,4,31.6528,7.6429,Town6,env6.jpg,2,?,0.6232
+84,3,4,31.6528,7.6429,Town6,env6.jpg,3,?,0.6725
+85,3,5,39.3268,6.0489,Town8,env8.jpg,1,Puppy,2.3439
+86,3,5,39.3268,6.0489,Town8,env8.jpg,2,Beyonce,1.8873
+87,3,5,39.3268,6.0489,Town8,env8.jpg,3,Lemons,1.8158
+88,3,6,45.4062,7.4336,Town5,env5.jpg,1,Benedict Cumberbatch,4.7039
+89,3,6,45.4062,7.4336,Town5,env5.jpg,2,Flamingo,1.7123
+90,3,6,45.4062,7.4336,Town5,env5.jpg,3,Hammer,1.0155
+91,3,7,52.8701,31.8920,Town7,env7.jpg,1,Power tool / power screwdriver,25.1248
+92,3,7,52.8701,31.8920,Town7,env7.jpg,2,Jim Parsons,4.5748
+93,3,7,52.8701,31.8920,Town7,env7.jpg,3,Giraffe,2.1905
+94,3,8,84.7929,26.7870,Town1,env1.jpg,1,George Clooney,18.0431
+95,3,8,84.7929,26.7870,Town1,env1.jpg,2,Zebra,3.7600
+96,3,8,84.7929,26.7870,Town1,env1.jpg,3,Head of greens,4.9821
+97,3,9,111.6112,8.9849,Town9,env9.jpg,1,Goat,2.0324
+98,3,9,111.6112,8.9849,Town9,env9.jpg,2,Paul McCartney,4.5195
+99,3,9,111.6112,8.9849,Town9,env9.jpg,3,Wrench,2.4312
+100,3,10,120.6266,22.8722,Town3,env3.jpg,1,?,21.7276
+101,3,10,120.6266,22.8722,Town3,env3.jpg,2,?,0.5750
+102,3,10,120.6266,22.8722,Town3,env3.jpg,3,?,0.5678
+103,3,11,143.5298,7.3765,Town12,env12.jpg,1,Zooey Daschanel,5.4967
+104,3,11,143.5298,7.3765,Town12,env12.jpg,2,Panda,0.9663
+105,3,11,143.5298,7.3765,Town12,env12.jpg,3,Apple,0.9117
+106,3,12,150.9369,11.3930,Town11,env11.jpg,1,Carrot,4.6895
+107,3,12,150.9369,11.3930,Town11,env11.jpg,2,Johnny Depp,4.6949
+108,3,12,150.9369,11.3930,Town11,env11.jpg,3,Elephant,2.0069
+109,4,1,1.0009,10.7117,Town2,env2.jpg,1,Mark Zuckerberg,6.4462
+110,4,1,1.0009,10.7117,Town2,env2.jpg,2,Cucumbers,2.4378
+111,4,1,1.0009,10.7117,Town2,env2.jpg,3,Kitten,1.8237
+112,4,2,11.7451,7.4956,Town4,env4.jpg,1,Natalie Portman,3.6477
+113,4,2,11.7451,7.4956,Town4,env4.jpg,2,Alligator,2.9341
+114,4,2,11.7451,7.4956,Town4,env4.jpg,3,Saw,0.9118
+115,4,3,19.2741,5.7419,Town8,env8.jpg,1,Puppy,1.7492
+116,4,3,19.2741,5.7419,Town8,env8.jpg,2,Beyonce,1.6163
+117,4,3,19.2741,5.7419,Town8,env8.jpg,3,Lemons,2.3746
+118,4,4,25.0486,11.1683,Town7,env7.jpg,1,Power tool,6.4072
+119,4,4,25.0486,11.1683,Town7,env7.jpg,2,Jim Parsons,2.7602
+120,4,4,25.0486,11.1683,Town7,env7.jpg,3,Giraffe,1.9991
+121,4,5,36.2496,7.0308,Town5,env5.jpg,1,Benedict Cumberbatch,4.6059
+122,4,5,36.2496,7.0308,Town5,env5.jpg,2,Flamingo,1.4401
+123,4,5,36.2496,7.0308,Town5,env5.jpg,3,Hammer,0.9831
+124,4,6,43.3135,5.7197,Town11,env11.jpg,1,Carrot,2.2472
+125,4,6,43.3135,5.7197,Town11,env11.jpg,2,Johnny Depp,1.8465
+126,4,6,43.3135,5.7197,Town11,env11.jpg,3,Elephant,1.6242
+127,4,7,49.0660,24.7871,Town3,env3.jpg,1,Emma Watson,15.0586
+128,4,7,49.0660,24.7871,Town3,env3.jpg,2,Bear,3.5508
+129,4,7,49.0660,24.7871,Town3,env3.jpg,3,Green screwdriver,6.1760
+130,4,8,73.8863,5.8861,Town10,env10.jpg,1,Grapes,3.0784
+131,4,8,73.8863,5.8861,Town10,env10.jpg,2,Duck,0.9995
+132,4,8,73.8863,5.8861,Town10,env10.jpg,3,Katy Perry,1.8063
+133,4,9,79.8053,6.9830,Town9,env9.jpg,1,Goat,2.0800
+134,4,9,79.8053,6.9830,Town9,env9.jpg,2,Paul McCartney,2.9099
+135,4,9,79.8053,6.9830,Town9,env9.jpg,3,Wrench,1.9910
+136,4,10,86.8212,22.9118,Town6,env6.jpg,1,Cow,12.2636
+137,4,10,86.8212,22.9118,Town6,env6.jpg,2,Tape Measure,5.1034
+138,4,10,86.8212,22.9118,Town6,env6.jpg,3,Taylor Swift,5.5429
+139,4,11,109.7661,7.6635,Town12,env12.jpg,1,Zooey Daschanel,5.0218
+140,4,11,109.7661,7.6635,Town12,env12.jpg,2,Panda,1.3594
+141,4,11,109.7661,7.6635,Town12,env12.jpg,3,Apple,1.2806
+142,4,12,117.4627,12.3181,Town1,env1.jpg,1,Zebra,5.1426
+143,4,12,117.4627,12.3181,Town1,env1.jpg,2,George Clooney,2.3825
+144,4,12,117.4627,12.3181,Town1,env1.jpg,3,Head of greens / lettuce,4.7911
