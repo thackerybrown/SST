@@ -143,3 +143,39 @@ index,run,trial,onset,duration,town,pic,itemNum,resp,respRT
 142,4,12,117.4627,12.3181,Town1,env1.jpg,1,Zebra,5.1426
 143,4,12,117.4627,12.3181,Town1,env1.jpg,2,George Clooney,2.3825
 144,4,12,117.4627,12.3181,Town1,env1.jpg,3,Head of greens / lettuce,4.7911
+145,5,1,1.0021,12.1263,Town5,env5.jpg,1,Benedict Cumberbatch,6.6041
+146,5,1,1.0021,12.1263,Town5,env5.jpg,2,Flamingo,4.6139
+147,5,1,1.0021,12.1263,Town5,env5.jpg,3,Hammer,0.9039
+148,5,2,13.1565,7.9630,Town2,env2.jpg,1,Mark Zuckerberg,4.5952
+149,5,2,13.1565,7.9630,Town2,env2.jpg,2,Cucumber,1.6229
+150,5,2,13.1565,7.9630,Town2,env2.jpg,3,Kitten,1.7432
+151,5,3,21.1477,8.3900,Town8,env8.jpg,1,Puppy,1.7244
+152,5,3,21.1477,8.3900,Town8,env8.jpg,2,Beyonce,5.2410
+153,5,3,21.1477,8.3900,Town8,env8.jpg,3,Oranges,1.4229
+154,5,4,29.5652,14.6056,Town1,env1.jpg,1,Zebra,5.2679
+155,5,4,29.5652,14.6056,Town1,env1.jpg,2,George Clooney,4.5608
+156,5,4,29.5652,14.6056,Town1,env1.jpg,3,Head of lettuce,4.7752
+157,5,5,44.1983,6.2757,Town11,env11.jpg,1,Carrot,2.3480
+158,5,5,44.1983,6.2757,Town11,env11.jpg,2,Johnny Depp,2.2556
+159,5,5,44.1983,6.2757,Town11,env11.jpg,3,Elephant,1.6702
+160,5,6,50.5014,10.6607,Town6,env6.jpg,1,Cow,5.7237
+161,5,6,50.5014,10.6607,Town6,env6.jpg,2,Tape Measure,2.8645
+162,5,6,50.5014,10.6607,Town6,env6.jpg,3,Taylor Swift,2.0707
+163,5,7,61.1901,12.2207,Town7,env7.jpg,1,Drill,7.3312
+164,5,7,61.1901,12.2207,Town7,env7.jpg,2,Jim Parsons,2.1597
+165,5,7,61.1901,12.2207,Town7,env7.jpg,3,Giraffe,2.7279
+166,5,8,73.4383,6.2039,Town9,env9.jpg,1,Goat,1.8762
+167,5,8,73.4383,6.2039,Town9,env9.jpg,2,Paul McCartney,3.0476
+168,5,8,73.4383,6.2039,Town9,env9.jpg,3,Wrench,1.2783
+169,5,9,79.6702,7.2996,Town4,env4.jpg,1,Natalie Portman,3.7148
+170,5,9,79.6702,7.2996,Town4,env4.jpg,2,Alligator,2.1289
+171,5,9,79.6702,7.2996,Town4,env4.jpg,3,Saw,1.4540
+172,5,10,86.9974,7.7564,Town12,env12.jpg,1,Zooey Deschanel,5.2845
+173,5,10,86.9974,7.7564,Town12,env12.jpg,2,Panda,1.1596
+174,5,10,86.9974,7.7564,Town12,env12.jpg,3,Apple,1.3106
+175,5,11,94.7816,12.7248,Town3,env3.jpg,1,Emma Watson,5.0843
+176,5,11,94.7816,12.7248,Town3,env3.jpg,2,Brown bear,4.4794
+177,5,11,94.7816,12.7248,Town3,env3.jpg,3,Green screwdriver,3.1593
+178,5,12,107.5340,5.7557,Town10,env10.jpg,1,Grapes,2.4205
+179,5,12,107.5340,5.7557,Town10,env10.jpg,2,Duck,1.3188
+180,5,12,107.5340,5.7557,Town10,env10.jpg,3,Katy Perry,2.0147

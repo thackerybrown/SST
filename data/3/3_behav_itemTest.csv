@@ -143,3 +143,39 @@ index,run,trial,onset,duration,town,pic,itemNum,resp,respRT
 142,4,12,128.3904,10.1145,Town10,env10.jpg,1,Katy Perry,3.8029
 143,4,12,128.3904,10.1145,Town10,env10.jpg,2,Grapes,2.6786
 144,4,12,128.3904,10.1145,Town10,env10.jpg,3,?,3.6312
+145,5,1,1.0016,12.6506,Town1,env1.jpg,1,?,10.9757
+146,5,1,1.0016,12.6506,Town1,env1.jpg,2,?,1.0481
+147,5,1,1.0016,12.6506,Town1,env1.jpg,3,?,0.6225
+148,5,2,13.6903,10.4340,Town12,env12.jpg,1,Zooey Deschel,6.2896
+149,5,2,13.6903,10.4340,Town12,env12.jpg,2,Apple,2.1827
+150,5,2,13.6903,10.4340,Town12,env12.jpg,3,Polar Bear,1.9597
+151,5,3,24.1631,9.3695,Town4,env4.jpg,1,Natalie Portman,5.6403
+152,5,3,24.1631,9.3695,Town4,env4.jpg,2,Bear,1.9505
+153,5,3,24.1631,9.3695,Town4,env4.jpg,3,Saw,1.7769
+154,5,4,33.5718,17.3617,Town11,env11.jpg,1,Johnny Depp,9.3445
+155,5,4,33.5718,17.3617,Town11,env11.jpg,2,Carrot,6.5350
+156,5,4,33.5718,17.3617,Town11,env11.jpg,3,Elephant,1.4804
+157,5,5,50.9719,8.1849,Town5,env5.jpg,1,Benedict Cumberbach,4.9045
+158,5,5,50.9719,8.1849,Town5,env5.jpg,2,Hammer,1.4797
+159,5,5,50.9719,8.1849,Town5,env5.jpg,3,Flamingo,1.7988
+160,5,6,59.1952,13.5217,Town9,env9.jpg,1,Paul McCartney,4.1775
+161,5,6,59.1952,13.5217,Town9,env9.jpg,2,Goat,3.2623
+162,5,6,59.1952,13.5217,Town9,env9.jpg,3,Wrench,6.0801
+163,5,7,72.7557,13.1704,Town2,env2.jpg,1,Mark Zuckerberg,7.4570
+164,5,7,72.7557,13.1704,Town2,env2.jpg,2,Kitten,2.4630
+165,5,7,72.7557,13.1704,Town2,env2.jpg,3,Cucumber,3.2487
+166,5,8,85.9650,20.4545,Town7,env7.jpg,1,Jim Parsons,4.1285
+167,5,8,85.9650,20.4545,Town7,env7.jpg,2,Electric Drill,2.8546
+168,5,8,85.9650,20.4545,Town7,env7.jpg,3,Giraffe,13.4694
+169,5,9,106.4580,12.4260,Town6,env6.jpg,1,Taylor Swift,5.7610
+170,5,9,106.4580,12.4260,Town6,env6.jpg,2,Tape Measure,2.4061
+171,5,9,106.4580,12.4260,Town6,env6.jpg,3,Cow,4.2570
+172,5,10,118.9231,20.9217,Town10,env10.jpg,1,Katy Perry,5.0395
+173,5,10,118.9231,20.9217,Town10,env10.jpg,2,Grapes,5.0471
+174,5,10,118.9231,20.9217,Town10,env10.jpg,3,?,10.8333
+175,5,11,139.8834,15.4797,Town3,env3.jpg,1,Emma Watson,5.2877
+176,5,11,139.8834,15.4797,Town3,env3.jpg,2,Screwdriver,6.9256
+177,5,11,139.8834,15.4797,Town3,env3.jpg,3,Bear,3.2646
+178,5,12,155.4020,18.8731,Town8,env8.jpg,1,Beyonce,6.3840
+179,5,12,155.4020,18.8731,Town8,env8.jpg,2,Dog,8.3910
+180,5,12,155.4020,18.8731,Town8,env8.jpg,3,Oranges,4.0961

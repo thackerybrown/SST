@@ -5,6 +5,7 @@
 % written by SG 06/18/15
 % github repo: https://github.com/sgagnon/SST
 %
+rng('default');
 
 % Screen('Preference', 'SkipSyncTests', 1)
 
