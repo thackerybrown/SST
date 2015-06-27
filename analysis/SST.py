@@ -9,10 +9,10 @@ palette = {'no response': 'gray',
 		  'half2': 'slategray',
 		  'control-fmri': 'lightgreen', 
 		  'stress-fmri': 'lightred',
-		  'face': 'coral',
+		  'face': 'orange',
 		  'tool': 'mediumpurple',
 		  'animal': 'dodgerblue',
-		  'food': 'lightseagreen'
+		  'food': 'mediumseagreen'
 		  }
               
 envs = ['env1', 'env2', 'env3', 

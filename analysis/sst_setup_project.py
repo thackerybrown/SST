@@ -135,6 +135,14 @@ def plot_paths(env, subj, dp, proj):
     ax = fig.get_axes()[0]
     return fig, ax
     
+def plot_paths_group(env, subj_list, dpt, proj, dp):
+    fig, ax = plot_environment(env, dp, proj)
+    plt.scatter(dp[(dp.env == env) & (dpt.subid.isin(subj_list)) & (dp.c3 == "PandaEPL_avatar")].x.astype(float),  
+                dp[(dp.env == env) & (dpt.subid.isin(subj_list)) & (dp.c3 == "PandaEPL_avatar")].y.astype(float),
+                s=.5, marker='.', alpha=.3)
+    ax = fig.get_axes()[0]
+    return fig, ax
+    
 def plot_path(env, subj, goal, dpt, proj, dp):
     fig, ax = plot_environment(env, dp, proj)
     plt.scatter(dpt[(dpt.env == env) & (dpt.subid == subj) & (dpt.c3 == "PandaEPL_avatar") & (dpt.instructions == goal)].x.astype(float),  
