@@ -143,3 +143,39 @@ index,run,trial,onset,duration,town,pic,itemNum,resp,respRT
 142,4,12,107.8229,15.4561,Town3,env3.jpg,1,Hermione Granger,6.2538
 143,4,12,107.8229,15.4561,Town3,env3.jpg,2,Screwdriver,4.7597
 144,4,12,107.8229,15.4561,Town3,env3.jpg,3,Bear,4.4405
+145,5,1,1.0016,9.9032,Town1,env1.jpg,1,Zebra,3.1163
+146,5,1,1.0016,9.9032,Town1,env1.jpg,2,George Clooney,4.8550
+147,5,1,1.0016,9.9032,Town1,env1.jpg,3,Lettuce,1.9278
+148,5,2,10.9309,9.1644,Town12,env12.jpg,1,Zoey Deschanel,6.2279
+149,5,2,10.9309,9.1644,Town12,env12.jpg,2,Panda,1.7759
+150,5,2,10.9309,9.1644,Town12,env12.jpg,3,Apple,1.1587
+151,5,3,20.1204,8.0305,Town2,env2.jpg,1,Mark Zuckerberg,4.5503
+152,5,3,20.1204,8.0305,Town2,env2.jpg,2,Cucumber,2.0237
+153,5,3,20.1204,8.0305,Town2,env2.jpg,3,Cat,1.4548
+154,5,4,28.1765,9.5107,Town5,env5.jpg,1,Benedict Cumberbatch,6.2548
+155,5,4,28.1765,9.5107,Town5,env5.jpg,2,Flamingo,1.7516
+156,5,4,28.1765,9.5107,Town5,env5.jpg,3,Hammer,1.5023
+157,5,5,37.7121,11.4106,Town6,env6.jpg,1,Tape Measurer,7.5782
+158,5,5,37.7121,11.4106,Town6,env6.jpg,2,Taylor Swift,2.8952
+159,5,5,37.7121,11.4106,Town6,env6.jpg,3,Cow,0.9354
+160,5,6,49.1476,5.5752,Town8,env8.jpg,1,Dog,1.8945
+161,5,6,49.1476,5.5752,Town8,env8.jpg,2,Beyonce,2.1596
+162,5,6,49.1476,5.5752,Town8,env8.jpg,3,Oranges,1.5191
+163,5,7,54.7483,7.5823,Town11,env11.jpg,1,Johnny Depp,3.5742
+164,5,7,54.7483,7.5823,Town11,env11.jpg,2,Elephant,2.3827
+165,5,7,54.7483,7.5823,Town11,env11.jpg,3,Carrot,1.6232
+166,5,8,62.3555,11.5269,Town3,env3.jpg,1,Emma Watson,6.3105
+167,5,8,62.3555,11.5269,Town3,env3.jpg,2,Brown Bear,2.4401
+168,5,8,62.3555,11.5269,Town3,env3.jpg,3,Screwdriver,2.7745
+169,5,9,73.9073,5.5271,Town10,env10.jpg,1,Katy Perry,3.0956
+170,5,9,73.9073,5.5271,Town10,env10.jpg,2,Duck,1.1421
+171,5,9,73.9073,5.5271,Town10,env10.jpg,3,Grapes,1.2873
+172,5,10,79.4593,9.5191,Town4,env4.jpg,1,Kiera Knightley,6.3824
+173,5,10,79.4593,9.5191,Town4,env4.jpg,2,Crocodile,2.2797
+174,5,10,79.4593,9.5191,Town4,env4.jpg,3,Saw,0.8552
+175,5,11,89.0040,9.0300,Town7,env7.jpg,1,Sheldon Cooper,4.7666
+176,5,11,89.0040,9.0300,Town7,env7.jpg,2,Giraffe,1.9273
+177,5,11,89.0040,9.0300,Town7,env7.jpg,3,Power Drill,2.3342
+178,5,12,98.0593,22.1068,Town9,env9.jpg,1,Goat,1.9193
+179,5,12,98.0593,22.1068,Town9,env9.jpg,2,Paul McCartney,5.7833
+180,5,12,98.0593,22.1068,Town9,env9.jpg,3,Wrench,14.4022

@@ -8,6 +8,7 @@ import os.path as op
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
+import pandas as pd
 
 # for dprime
 from scipy.stats import norm
@@ -101,12 +102,18 @@ def add_subinfo(data, info_dict, col_name):
     return data
     
 # Plotting functions
-def plot_environment(env, dp=dp, proj=proj):
+def plot_environment(env, dp, proj):
 
     fig = plt.figure(figsize=(4, 4))
-    plt.ylim(-60,60)
-    plt.xlim(-60,60)
+    plt.ylim(0,60)
+    plt.xlim(0,60)
 
+    if env == 'env1':
+		buildings = pd.read_csv(op.join('/Users/sgagnon/Experiments/SST/data', 'building_coords.csv'))
+		coords = buildings[buildings.env == 'env1']
+		plt.scatter(coords.x, coords.y,  
+					s=25, marker='.', color='gray')
+	
     goal_types = proj['goals'][env].keys()
     for goal_type in goal_types:
         goal = proj['goals'][env][goal_type]
@@ -120,24 +127,32 @@ def plot_environment(env, dp=dp, proj=proj):
     return fig, ax
 
 
-def plot_paths(env, subj, dp=dp, proj=proj):
-    fig, ax = plot_environment(env)
+def plot_paths(env, subj, dp, proj):
+    fig, ax = plot_environment(env, dp, proj)
     plt.scatter(dp[(dp.env == env) & (dp.subid == subj) & (dp.c3 == "PandaEPL_avatar")].x.astype(float),  
                 dp[(dp.env == env) & (dp.subid == subj) & (dp.c3 == "PandaEPL_avatar")].y.astype(float),
                 s=.5, marker='.', alpha=.3)
-	ax = fig.get_axes()[0]
+    ax = fig.get_axes()[0]
     return fig, ax
     
-def plot_path(env, subj, goal, dpt=dpt, proj=proj):
-    fig, ax = plot_environment(env)
+def plot_paths_group(env, subj_list, dpt, proj, dp):
+    fig, ax = plot_environment(env, dp, proj)
+    plt.scatter(dp[(dp.env == env) & (dpt.subid.isin(subj_list)) & (dp.c3 == "PandaEPL_avatar")].x.astype(float),  
+                dp[(dp.env == env) & (dpt.subid.isin(subj_list)) & (dp.c3 == "PandaEPL_avatar")].y.astype(float),
+                s=.5, marker='.', alpha=.3)
+    ax = fig.get_axes()[0]
+    return fig, ax
+    
+def plot_path(env, subj, goal, dpt, proj, dp):
+    fig, ax = plot_environment(env, dp, proj)
     plt.scatter(dpt[(dpt.env == env) & (dpt.subid == subj) & (dpt.c3 == "PandaEPL_avatar") & (dpt.instructions == goal)].x.astype(float),  
                 dpt[(dpt.env == env) & (dpt.subid == subj) & (dpt.c3 == "PandaEPL_avatar") & (dpt.instructions == goal)].y.astype(float),
                 s=.5, marker='.', alpha=.3)
-	ax = fig.get_axes()[0]
+    ax = fig.get_axes()[0]
     return fig, ax
     
-def plot_path_group(env, subj_list, goal, dpt=dpt, proj=proj):
-    fig, ax = plot_environment(env)
+def plot_path_group(env, subj_list, goal, dpt, proj, dp):
+    fig, ax = plot_environment(env, dp, proj)
     plt.scatter(dpt[(dpt.env == env) & (dpt.subid.isin(subj_list)) & (dpt.c3 == "PandaEPL_avatar") & (dpt.instructions == goal)].x.astype(float),  
                 dpt[(dpt.env == env) & (dpt.subid.isin(subj_list)) & (dpt.c3 == "PandaEPL_avatar") & (dpt.instructions == goal)].y.astype(float),
                 s=.5, marker='.', alpha=.3)
