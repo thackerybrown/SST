@@ -1,0 +1,3 @@
+expName	groupName	Date	subjectID	questionLabel	rawRating	isReversed	adjustedRating	respRT	subScaleName	subScaleNum	promptNum	
+SST	post1	07-10-15	6	Q10	2	0	2	21.4331	generalSOD	4	1	
+SST	post1	07-10-15	6	Q11	2	0	2	15.1119	compass	5	1	
