@@ -143,3 +143,39 @@ index,run,trial,onset,duration,town,pic,itemNum,resp,respRT
 142,4,12,168.4100,18.1315,Town6,env6.jpg,1,Taylor Swift,10.1133
 143,4,12,168.4100,18.1315,Town6,env6.jpg,2,?,7.2729
 144,4,12,168.4100,18.1315,Town6,env6.jpg,3,?,0.7434
+145,5,1,1.0012,37.3250,Town7,env7.jpg,1,giraffe,15.4190
+146,5,1,1.0012,37.3250,Town7,env7.jpg,2,Sheldon Cooper,5.3822
+147,5,1,1.0012,37.3250,Town7,env7.jpg,3,drill,16.5195
+148,5,2,38.3626,10.4276,Town8,env8.jpg,1,oranges,3.6105
+149,5,2,38.3626,10.4276,Town8,env8.jpg,2,puppy,4.9041
+150,5,2,38.3626,10.4276,Town8,env8.jpg,3,Beyonce,1.9110
+151,5,3,48.8250,10.6609,Town10,env10.jpg,1,grape,3.1558
+152,5,3,48.8250,10.6609,Town10,env10.jpg,2,duck,1.0796
+153,5,3,48.8250,10.6609,Town10,env10.jpg,3,Katy Perry,6.4237
+154,5,4,59.5212,11.2856,Town11,env11.jpg,1,carrot,4.9082
+155,5,4,59.5212,11.2856,Town11,env11.jpg,2,elephant,3.6872
+156,5,4,59.5212,11.2856,Town11,env11.jpg,3,Johnny Depp,2.6885
+157,5,5,70.8417,23.8363,Town2,env2.jpg,1,Mark Zuckerberg,18.4277
+158,5,5,70.8417,23.8363,Town2,env2.jpg,2,cucumber,3.3356
+159,5,5,70.8417,23.8363,Town2,env2.jpg,3,kitten,2.0710
+160,5,6,94.7134,13.0520,Town9,env9.jpg,1,goat,4.5393
+161,5,6,94.7134,13.0520,Town9,env9.jpg,2,Sir Paul McCartney,6.5033
+162,5,6,94.7134,13.0520,Town9,env9.jpg,3,wrench,2.0077
+163,5,7,107.8009,14.8296,Town3,env3.jpg,1,Emma Watson,8.0759
+164,5,7,107.8009,14.8296,Town3,env3.jpg,2,brown bear,3.4966
+165,5,7,107.8009,14.8296,Town3,env3.jpg,3,screwdriver,3.2553
+166,5,8,122.6661,24.1094,Town6,env6.jpg,1,Taylor Swift,8.5265
+167,5,8,122.6661,24.1094,Town6,env6.jpg,2,saw,8.1800
+168,5,8,122.6661,24.1094,Town6,env6.jpg,3,?,7.4012
+169,5,9,146.8115,18.7727,Town1,env1.jpg,1,zebra,5.9393
+170,5,9,146.8115,18.7727,Town1,env1.jpg,2,George Clooney,9.3844
+171,5,9,146.8115,18.7727,Town1,env1.jpg,3,lettuce,3.4473
+172,5,10,165.6192,31.8783,Town5,env5.jpg,1,Benedict Cumberbatch,8.3568
+173,5,10,165.6192,31.8783,Town5,env5.jpg,2,flamingo,13.4778
+174,5,10,165.6192,31.8783,Town5,env5.jpg,3,tool,10.0417
+175,5,11,197.5329,18.8186,Town12,env12.jpg,1,Zooey Deschanel,6.8043
+176,5,11,197.5329,18.8186,Town12,env12.jpg,2,bear,8.2202
+177,5,11,197.5329,18.8186,Town12,env12.jpg,3,apple,3.7924
+178,5,12,216.3870,24.9570,Town4,env4.jpg,1,alligator/crocodile,17.3963
+179,5,12,216.3870,24.9570,Town4,env4.jpg,2,Natalie Portman,6.4549
+180,5,12,216.3870,24.9570,Town4,env4.jpg,3,saw,1.1039
