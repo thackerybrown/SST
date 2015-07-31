@@ -22,6 +22,8 @@ envs = ['env1', 'env2', 'env3',
 
 subjinfo_file = 'subj_info.csv'
 
+shortcut_file = 'building_coords.csv'
+
 goals = {'env1': {'face': 'George_Clooney', 'food': 'lettuce', 'animal': 'zebra'},
 		 'env2': {'face': 'Mark_Zuckerberg', 'animal': 'kitten', 'food': 'cucumber'},
 		 'env3': {'face': 'Emma_Watson', 'animal': 'brown_bear', 'tool': 'screwdriver'},
