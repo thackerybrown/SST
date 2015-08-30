@@ -17,6 +17,10 @@ listLength = length(theData.index);
 %% Shuffle the order for this block, and save order file
 item_types = {'Item 1', 'Item 2', 'Item 3'};
 
+env_ext = {'_1.jpg', '_2.jpg', '_3.jpg'};
+pic_order = [1, 2, 3];
+pics_per_town = size(pic_order,2);
+
 stimOrder = Shuffle(theData.index);
 theData.imgID = theData.imgID(stimOrder);
 theData.imgFile = theData.imgFile(stimOrder);
@@ -85,12 +89,32 @@ Screen(Window,'Flip');
 getKey('g',S.kbNum);
 
 % Load the stim pictures for the current block
-for n = 1:listLength
-    picname = theData.imgFile{n};  % This is the filename of the image
-    pic = imread(picname);
-    [imgheight(n), imgwidth(n), ~] = size(pic);
-    imgPtrs(n) = Screen('MakeTexture',Window,pic);
+for n = 1:listLength % for each town 
+    for picnum = 1:pics_per_town % iterate through pics per town
+        picname = [theData.imgFile{n}, env_ext{picnum}];  % This is the filename of the image
+        pic = imread(picname);
+        [imgheight(n), imgwidth(n), ~] = size(pic);
+        imgPtrs{n,picnum} = Screen('MakeTexture',Window,pic);
+    end
 end
+
+% Figure out where pics will be displayed
+destRects = cell(pics_per_town); %init cell array of destination rects
+h = imgheight(1);
+w = imgwidth(1);
+margin_size = 5;
+screen_w = myRect(3);
+screen_x = 0;
+
+scaled_imgw = (screen_w - ((pics_per_town+1)*margin_size))/pics_per_town;
+scaled_proportion = w/scaled_imgw;
+scaled_imgh = h/scaled_proportion;
+
+for rectnum = 1:pics_per_town
+    destRects{rectnum} = [screen_x+margin_size  ycenter-(scaled_imgh/2) screen_x+margin_size+scaled_imgw ycenter+(scaled_imgh/2)];
+    screen_x = screen_x+margin_size+scaled_imgw;
+end
+
 
 %% Get everything else ready
 
@@ -149,6 +173,9 @@ cd(S.subData); % for saving data
 % Loop through stimulus trials
 for Trial = 1:listLength
     
+    % get shuffled pic order
+    shuff_pic_order = Shuffle(pic_order);
+    
     theData.onset(Trial) = GetSecs - startTime;
 
     for item_num = 1:length(item_types)
@@ -169,11 +196,12 @@ for Trial = 1:listLength
         word = item_types{item_num};
         DrawFormattedText(Window,word,'center',ycenter-(imgheight(Trial)/2+50),S.textColor);
 
-        % Draw the image
-        destRect = [xcenter-imgwidth(Trial)/2 ycenter-imgheight(Trial)/2 xcenter+imgwidth(Trial)/2 ycenter+imgheight(Trial)/2];
-        Screen('DrawTexture',Window,imgPtrs(Trial),[],destRect);
-        theData.picShown{Trial} = theData.imgID{Trial};
-        
+        % Draw the images
+        for picnum = 1:pics_per_town 
+            Screen('DrawTexture',Window,imgPtrs{Trial, picnum},[],destRects{picnum});
+            theData.picShown{Trial} = theData.imgID{Trial};
+        end
+
         % Flip
         Screen(Window,'Flip');
         
@@ -210,9 +238,11 @@ for Trial = 1:listLength
             word = item_types{item_num};
             DrawFormattedText(Window,word,'center',ycenter-(imgheight(Trial)/2+50),S.textColor);
 
-            % Draw the image
-            destRect = [xcenter-imgwidth(Trial)/2 ycenter-imgheight(Trial)/2 xcenter+imgwidth(Trial)/2 ycenter+imgheight(Trial)/2];
-            Screen('DrawTexture',Window,imgPtrs(Trial),[],destRect);
+            % Draw the images
+            for picnum = 1:pics_per_town 
+                Screen('DrawTexture',Window,imgPtrs{Trial, picnum},[],destRects{picnum});
+                theData.picShown{Trial} = theData.imgID{Trial};
+            end
             Screen('Flip', Window);
             FlushEvents(['keyDown']);
             
