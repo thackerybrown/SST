@@ -130,6 +130,7 @@ for preall = 1:listLength
     end
 
     theData.picShown{preall} = 'blank';
+    theData.shuffle_pic_order{preall} = [];
 end
 
 % get ready screen
@@ -174,7 +175,7 @@ cd(S.subData); % for saving data
 for Trial = 1:listLength
     
     % get shuffled pic order
-    shuff_pic_order = Shuffle(pic_order);
+    theData.shuffle_pic_order{Trial} = Shuffle(pic_order);
     
     theData.onset(Trial) = GetSecs - startTime;
 
@@ -198,7 +199,7 @@ for Trial = 1:listLength
 
         % Draw the images
         for picnum = 1:pics_per_town 
-            Screen('DrawTexture',Window,imgPtrs{Trial, picnum},[],destRects{picnum});
+            Screen('DrawTexture',Window,imgPtrs{Trial,theData.shuffle_pic_order{Trial}(picnum)},[],destRects{picnum});
             theData.picShown{Trial} = theData.imgID{Trial};
         end
 
@@ -239,8 +240,8 @@ for Trial = 1:listLength
             DrawFormattedText(Window,word,'center',ycenter-(imgheight(Trial)/2+50),S.textColor);
 
             % Draw the images
-            for picnum = 1:pics_per_town 
-                Screen('DrawTexture',Window,imgPtrs{Trial, picnum},[],destRects{picnum});
+            for picnum = 1:pics_per_town
+                Screen('DrawTexture',Window,imgPtrs{Trial,theData.shuffle_pic_order{Trial}(picnum)},[],destRects{picnum});
                 theData.picShown{Trial} = theData.imgID{Trial};
             end
             Screen('Flip', Window);
