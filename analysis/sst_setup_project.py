@@ -107,10 +107,12 @@ def plot_environment(env, dp, proj):
     fig = plt.figure(figsize=(4, 4))
     plt.ylim(0,60)
     plt.xlim(0,60)
-
-    if env == 'env1':
-		buildings = pd.read_csv(op.join('/Users/sgagnon/Experiments/SST/data', 'building_coords.csv'))
-		coords = buildings[buildings.env == 'env1']
+    
+    buildings = pd.read_csv(op.join(op.expanduser('~'), 'Experiments/SST/data', 'building_coords.csv'))
+	
+    if env in buildings.env.unique():
+		
+		coords = buildings[buildings.env == env]
 		plt.scatter(coords.x, coords.y,  
 					s=25, marker='.', color='gray')
 	
