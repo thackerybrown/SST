@@ -33,7 +33,7 @@ goals = {'env1': {'face': 'George_Clooney', 'food': 'lettuce', 'animal': 'zebra'
 		 'env7': {'face': 'Jim_Parsons', 'animal': 'giraffe', 'tool': 'drill'},
 		 'env8': {'face': 'Beyonce', 'animal': 'puppy', 'food': 'oranges'},
 		 'env9': {'face': 'Paul_McCartney', 'animal': 'goat', 'tool': 'wrench'},
-		 'env10': {'face': 'Katy_Perry', 'animal': 'duck', 'food': 'grape'},
+		 'env10': {'face': 'Katy_Perry', 'animal': 'duck', 'food': 'grapes'},
 		 'env11': {'face': 'Johnny_Depp', 'animal': 'elephant', 'food': 'carrot'},
 		 'env12': {'face': 'Zooey_Dechanel', 'animal': 'panda', 'food': 'apple'}
 		 }

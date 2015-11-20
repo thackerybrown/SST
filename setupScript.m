@@ -36,6 +36,7 @@ end
 
 thePath.scripts = fullfile(thePath.main, 'scripts');
 thePath.stim = fullfile(thePath.main, 'stimuli');
+thePath.locstim = fullfile(thePath.main, 'loc_stimuli');
 thePath.data = fullfile(thePath.main, 'data');
 thePath.orderfiles = fullfile(thePath.main, 'orderfiles');
 thePath.analysis = fullfile(thePath.main, 'analysis');
