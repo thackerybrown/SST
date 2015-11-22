@@ -18,7 +18,7 @@ felix (from Waglerlab Github)
 List of paramaters (located in `script`: `variable`) that can be modified:
 
 - **Number of runs** (`sst.m`: `blockinfo.run_num`): 2 runs
-- **Number of mini blocks per category per run** (`sst.m`: `blockinfo.miniblock_num`) : 4 
+- **Number of mini blocks per category per run** (`sst.m`: `blockinfo.miniblock_num`) : 4
 - **Stimuli presented per mini block** (`sst.m`: `blockinfo.stim_per_miniblock`): 10
 - **Proportion of trials per mini block that are 1-back repeats** (`sst.m`: `blockinfo.repfreq`): 1/3
 - **Duration of each stimulus presentation** (`localizer_task.m`: `stimTime`): .6 seconds
@@ -26,7 +26,8 @@ List of paramaters (located in `script`: `variable`) that can be modified:
 - **Duration of rest fixation between mini blocks** (`sst_run.m`: `S.restTime`): 10 seconds
 - **Duration of lead-in time between trigger and stimulus onset** (`sst_run.m`: `S.leadIn`): 12 seconds, discard 6 volumes
 
-**Total Run Time**: $((1.6*10*4*5)+ (10*4*5) + 12 + 12)/60 =  9.0667$ minutes
+**Total Run Time**: ((1.6*10*4*5)+ (10*4*5) + 12 + 12)/60 =  9.0667 minutes
+**Categories**: faces, tools, fruits/vegetables, animals, virtual environment scenes
 
 ## Running the Localizer
 
