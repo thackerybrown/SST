@@ -12,6 +12,20 @@ felix (from Waglerlab Github)
 `loc_stimuli`: localizer stimuli
 `orderfiles`: files generated per participant to determine order of stimuli
 
+
+## Localizer parameters
+
+List of paramaters (located in `script`: `variable`) that can be modified:
+
+- **Number of runs** (`sst.m`: `blockinfo.run_num`): 2 runs
+- **Number of mini blocks per category per run** (`sst.m`: `blockinfo.miniblock_num`) : 4 
+- **Stimuli presented per mini block** (`sst.m`: `blockinfo.stim_per_miniblock`): 10
+- **Proportion of trials per mini block that are 1-back repeats** (`sst.m`: `blockinfo.repfreq`): 1/3
+- **Duration of each stimulus presentation** (`localizer_task.m`: `stimTime`): .6 seconds
+- **Duration of fixation between stimuli** (`localizer_task.m`: `nullTime`): 1 second
+- **Duration of rest fixation between mini blocks** (`sst_run.m`: `S.restTime`): 10 seconds
+- **Duration of lead-in time between trigger and stimulus onset** (`sst_run.m`: `S.leadIn`): 12 seconds, discard 6 volumes
+
 ## Running the Localizer
 
 In the matlab console, run the following:

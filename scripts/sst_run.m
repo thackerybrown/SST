@@ -198,7 +198,7 @@ switch taskType
                 outputError(thePath.data, S.subData, err);
             end
 
-            S.restTime = 12; % between block rest (fixation)
+            S.restTime = 10; % between block rest (fixation)
             S.leadIn = 12;
             S.leadOut = 12;
             
