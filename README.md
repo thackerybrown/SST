@@ -27,6 +27,7 @@ List of paramaters (located in `script`: `variable`) that can be modified:
 - **Duration of lead-in time between trigger and stimulus onset** (`sst_run.m`: `S.leadIn`): 12 seconds, discard 6 volumes
 
 **Total Run Time**: ((1.6*10*4*5)+ (10*4*5) + 12 + 12)/60 =  9.0667 minutes
+
 **Categories**: faces, tools, fruits/vegetables, animals, virtual environment scenes
 
 ## Running the Localizer
