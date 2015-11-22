@@ -1,6 +1,7 @@
 function [theData,S] = sst_itemTest(thePath,listName,S,block,saveName,theData)
 
 %% initialize rand.
+rng('default')
 rng('shuffle');
 kbNum=S.kbNum;
 
@@ -72,7 +73,7 @@ S.instrWrap = 65;
 % Print instructions
 Screen(Window,'FillRect', S.screenColor);
 message = ['In this task you will be tested on which items are found in each town. You will be presented ', ...
-    'with an image from each town, and asked to recall the 3 items found in that town, in any order. To enter your responses, ', ...
+    'with some images from each town, and asked to recall the 3 items found in that town, in any order. To enter your responses, ', ...
     'you will type in a brief description of a given item, and press the RETURN key to advance to the next item (or town). If you ', ...
     'can''t remember all the items, please just type ''?'', and then RETURN. ', ...
     'Any questions? \n\nWhen you''re ready to start, please press the ''g'' button.'];

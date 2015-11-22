@@ -39,7 +39,7 @@ listLength = length(theData.index);
 
 
 %% Trial Outline
-stimTime = .5;
+stimTime = .6;
 nullTime = 1;
 
 %% Screen commands and device specification
