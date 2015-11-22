@@ -47,9 +47,16 @@ This will start the main script, and prompt you for some inputs:
 
 ### Sync with scanner
 
-Once you've entered in the inputs, an instruction screen will come up. If scanning, you should:
+Make sure Eprime trigger USB is plugged into laptop. I use the Wagner lab USB splitter (in 2nd Wagner lab drawer in CNI) to plug into the closest USB port on the left side of Ari; both the Responses USB and the Eprime trigger USB are plugged into the USB splitter. I've been using the 5-button white/black response box, which you need to sync with the FORP box by selecting (manual, USB): 1x5 D, HID NAR No5.
 
-1. Prep scan
-2. Once Scan is highlighted, hit "g" on the keyboard
+Once you've entered in the inputs for the `sst.m` script, an instruction screen will come up. If running in the scanner, you should:
+
+1. Prep scan on console (drop down from Scan button)
+2. Once prep scan done, Scan should be highlighted on console; hit "g" on the keyboard
 3. Hit Scan on the scanner console
 4. Hit "g" on the keyboard; this should trigger the scanner
+....
+ 
+ At the end of the block, the reminder for the next block will appear (if more than 1 block total); follow same instructions above.
+ 
+ 
