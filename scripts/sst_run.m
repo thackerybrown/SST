@@ -184,9 +184,12 @@ switch taskType
         cat_saveName = [subID '_localizer_cat']; % combines test data across blocks
 
         for block_num = block:2
-            saveName = [subID '_block' num2str(block_num) '_localizer'];
+            saveName = [subID '_block' num2str(block_num) '_localizer']; 
 
             % Load in data from prev blocks
+            % If crashed on block 1, comment out this try statement, and
+            % just specify:
+%             prevData = struct;
             try
                 if block_num > 1
                     load(cat_saveName);
@@ -198,6 +201,8 @@ switch taskType
                 outputError(thePath.data, S.subData, err);
             end
 
+            
+            
             S.restTime = 10; % between block rest (fixation)
             S.leadIn = 12;
             S.leadOut = 12;
