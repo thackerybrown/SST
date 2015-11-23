@@ -79,5 +79,9 @@ Once you've entered in the inputs for the `sst.m` script, an instruction screen 
 ....
  
  At the end of the block, the reminder for the next block will appear (if more than 1 block total); follow same instructions above.
+
+### Troubleshooting
+
+If an error occurs while the script is being run, exit out of the script (ctrl+c, sca, enter), and check the `logfile.txt` in the `SST/data/` directory. Errors print to the log file, so relevant information (e.g., line of code with error) should appear there.
  
  
