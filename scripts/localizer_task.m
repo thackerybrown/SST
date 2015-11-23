@@ -4,6 +4,9 @@ function theData = localizer_task(thePath,listName,S,block,saveName,theData)
 rand('twister',sum(100*clock));
 kbNum=S.kbNum;
 
+% save file name
+matName = [saveName '.mat'];
+
 %% Come up with response labels
 if S.respMap == 1
     respCodes = {'Yes' 'No'};
@@ -174,6 +177,10 @@ for Trial = 1:listLength
             theData.onset(Trial) = GetSecs - startTime;
             theData.onset_raw(Trial) = GetSecs;
 
+            % Save for now
+            cmd = ['save ' matName];
+            eval(cmd);
+            
             % Collect responses during rest
             goTime = goTime + S.restTime;
             [keys, RT] = recordKeys(startTime,goTime,S.boxNum);
@@ -200,7 +207,6 @@ for Trial = 1:listLength
             theData.picShown{Trial} = theData.imgFile;
 
             % Start!
-            ons_start = GetSecs;
             theData.onset(Trial) = GetSecs - startTime;
             Screen(Window,'Flip');
 
@@ -235,16 +241,15 @@ for Trial = 1:listLength
             theData.isiRT{Trial} = RT;
         end
             
-        %% Save trial
         % Record trial duration
         theData.dur(Trial) = (GetSecs - startTime) - theData.onset(Trial); % duration from stim onset
         
-        % Save to mat file
-        matName = [saveName '.mat'];
-        cmd = ['save ' matName];
-        eval(cmd);
     end
 end
+
+% Save to mat file
+cmd = ['save ' matName];
+eval(cmd);
 
 % Show fixation (lead-out)
 goTime = goTime + S.leadOut;
@@ -252,7 +257,6 @@ Screen(Window,'FillRect', S.screenColor);
 Screen(Window, 'DrawTexture', fix);
 Screen(Window,'Flip');
 recordKeys(startTime,goTime,kbNum);
-
 
 Screen(Window,'FillRect', S.screenColor);
 Screen(Window,'Flip');
