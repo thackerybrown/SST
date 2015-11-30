@@ -16,7 +16,7 @@ elseif S.respMap == 2
     labelReminder = 'loc_response_mapping2.jpg';
 end
 respOpts = {'1', '2'};
-scanner_respOpts = {'1!', '2@'};
+scanner_respOpts = {'2@', '3#'};
 
 if S.scanner == 2
     theData.respOpts = respOpts;
