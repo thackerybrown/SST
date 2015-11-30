@@ -9,10 +9,10 @@ matName = [saveName '.mat'];
 
 %% Come up with response labels
 if S.respMap == 1
-    respCodes = {'Yes' 'No'};
+    respCodes = {'Diff' 'Same'};
     labelReminder = 'loc_response_mapping1.jpg';
 elseif S.respMap == 2
-    respCodes = {'Yes' 'No'};
+    respCodes = {'Same' 'Diff'};
     labelReminder = 'loc_response_mapping2.jpg';
 end
 respOpts = {'1', '2'};
