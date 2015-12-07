@@ -1,0 +1,9 @@
+expName	groupName	Date	subjectID	questionLabel	rawRating	isReversed	adjustedRating	respRT	subScaleName	subScaleNum	promptNum	
+SST	post1	12-06-15	2	T1	3	1	3	12.8755	SMM	1	1	
+SST	post1	12-06-15	2	T2	4	0	4	5.2603	SMM	1	1	
+SST	post1	12-06-15	2	T3	3	1	3	10.3172	SMM	1	1	
+SST	post1	12-06-15	2	T4	4	0	4	7.903	SMM	1	1	
+SST	post1	12-06-15	2	T5	2	1	4	10.86	SMM	1	1	
+SST	post1	12-06-15	2	T6	3	0	3	3.3912	SMM	1	1	
+SST	post1	12-06-15	2	T7	3	1	3	2.9115	SMM	1	1	
+SST	post1	12-06-15	2	T8	4	0	4	3.1503	SMM	1	1	
