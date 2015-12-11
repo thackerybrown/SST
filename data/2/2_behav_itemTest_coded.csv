@@ -1,181 +1,181 @@
 index,run,trial,onset,duration,town,pic,itemNum,resp,respRT,itemType,acc
-25,1,9,357.5362,23.7083,Town1,env1,1,johnny depp,20.3473,face,0
-26,1,9,357.5362,23.7083,Town1,env1,2,?,2.3506,animal,0
-27,1,9,357.5362,23.7083,Town1,env1,3,?,1.0086,object,0
-70,2,12,214.659,16.9803,Town1,env1,1,george clooney,10.2834,face,1
-71,2,12,214.659,16.9803,Town1,env1,2,zebra,2.6793,animal,1
-72,2,12,214.659,16.9803,Town1,env1,3,>,4.0156,object,0
-88,3,6,83.9392,14.884,Town1,env1,1,george,7.5358,face,1
-89,3,6,83.9392,14.884,Town1,env1,2,zebra,2.4387,animal,1
-90,3,6,83.9392,14.884,Town1,env1,3,lettuce,4.9078,object,1
-124,4,6,55.2003,16.705,Town1,env1,1,george,10.8236,face,1
-125,4,6,55.2003,16.705,Town1,env1,2,zebra,2.1195,animal,1
-126,4,6,55.2003,16.705,Town1,env1,3,lettuce,3.7601,object,1
-163,5,7,98.7203,15.4098,Town1,env1,1,george,11.5449,face,1
-164,5,7,98.7203,15.4098,Town1,env1,2,zebra,2.3266,animal,1
-165,5,7,98.7203,15.4098,Town1,env1,3,lettuce,1.5366,object,1
-13,1,5,183.5915,18.4992,Town10,env10,1,duck,7.3634,animal,1
-14,1,5,183.5915,18.4992,Town10,env10,2,katy perry,4.9434,face,1
-15,1,5,183.5915,18.4992,Town10,env10,3,?,6.1904,object,0
-64,2,10,184.2447,8.424,Town10,env10,1,grapes,4.624,object,1
-65,2,10,184.2447,8.424,Town10,env10,2,katy perry,2.3034,face,1
-66,2,10,184.2447,8.424,Town10,env10,3,duck,1.4947,animal,1
-76,3,2,17.4592,8.3578,Town10,env10,1,duck,3.013,animal,1
-77,3,2,17.4592,8.3578,Town10,env10,2,katy perry,2.5597,face,1
-78,3,2,17.4592,8.3578,Town10,env10,3,grapes,2.7832,object,1
-136,4,10,95.3381,9.0621,Town10,env10,1,duck,2.5827,animal,1
-137,4,10,95.3381,9.0621,Town10,env10,2,grapes,4.3433,object,1
-138,4,10,95.3381,9.0621,Town10,env10,3,katy perry,2.1343,face,1
-175,5,11,165.8013,9.3384,Town10,env10,1,duck,2.5531,animal,1
-176,5,11,165.8013,9.3384,Town10,env10,2,katy,1.1997,face,1
-177,5,11,165.8013,9.3384,Town10,env10,3,grapes,5.5838,object,1
-22,1,8,304.1598,53.3305,Town11,env11,1,?,51.923,face,0
-23,1,8,304.1598,53.3305,Town11,env11,2,?,0.7191,animal,0
-24,1,8,304.1598,53.3305,Town11,env11,3,?,0.6865,object,0
-49,2,5,88.8427,11.8724,Town11,env11,1,johnny depp,4.6008,face,1
-50,2,5,88.8427,11.8724,Town11,env11,2,drill,5.518,object,0
-51,2,5,88.8427,11.8724,Town11,env11,3,?,1.7515,animal,0
-106,3,12,167.4662,9.3645,Town11,env11,1,johnny depp,5.3729,face,1
-107,3,12,167.4662,9.3645,Town11,env11,2,elephant,2.7829,animal,1
-108,3,12,167.4662,9.3645,Town11,env11,3,carrot,1.2067,object,1
-133,4,9,87.442,7.8554,Town11,env11,1,johnny depp,3.503,face,1
-134,4,9,87.442,7.8554,Town11,env11,2,elephant,3.0549,animal,1
-135,4,9,87.442,7.8554,Town11,env11,3,carrot,1.2955,object,1
-166,5,8,114.1762,12.8334,Town11,env11,1,johnny depp,6.9522,face,1
-167,5,8,114.1762,12.8334,Town11,env11,2,elephant,2.5197,animal,1
-168,5,8,114.1762,12.8334,Town11,env11,3,carrots,3.3597,object,1
-7,1,3,118.984,49.5949,Town12,env12,1,apple,13.4423,object,1
-8,1,3,118.984,49.5949,Town12,env12,2,zooey,4.2069,face,1
-9,1,3,118.984,49.5949,Town12,env12,3,panda,31.9438,animal,1
-58,2,8,144.8581,8.9714,Town12,env12,1,apples,5.1395,object,1
-59,2,8,144.8581,8.9714,Town12,env12,2,zooey,2.0394,face,1
-60,2,8,144.8581,8.9714,Town12,env12,3,panda,1.7904,animal,1
-91,3,7,98.8654,14.9453,Town12,env12,1,zooey,5.7905,face,1
-92,3,7,98.8654,14.9453,Town12,env12,2,apple,6.0102,object,1
-93,3,7,98.8654,14.9453,Town12,env12,3,panda,3.1428,animal,1
-142,4,12,113.2975,6.8153,Town12,env12,1,zooey,4.5421,face,1
-143,4,12,113.2975,6.8153,Town12,env12,2,apple,1.1848,object,1
-144,4,12,113.2975,6.8153,Town12,env12,3,panda,1.0866,animal,1
-151,5,3,55.0692,6.1137,Town12,env12,1,zooey,3.6808,face,1
-152,5,3,55.0692,6.1137,Town12,env12,2,panda,1.104,animal,1
-153,5,3,55.0692,6.1137,Town12,env12,3,apple,1.3273,object,1
-16,1,6,202.1361,54.8728,Town2,env2,1,zuckeberg,12.0597,face,1
-17,1,6,202.1361,54.8728,Town2,env2,2,?,41.8744,animal,0
-18,1,6,202.1361,54.8728,Town2,env2,3,?,0.937,object,0
-61,2,9,153.8763,30.3205,Town2,env2,1,zuckeberg,9.0251,face,1
-62,2,9,153.8763,30.3205,Town2,env2,2,cucumber,2.9198,object,1
-63,2,9,153.8763,30.3205,Town2,env2,3,drill,18.3735,object,0
-79,3,3,25.8591,35.1529,Town2,env2,1,zuckerberg,5.5013,face,1
-80,3,3,25.8591,35.1529,Town2,env2,2,cucumbe,4.4863,object,1
-81,3,3,25.8591,35.1529,Town2,env2,3,cat,25.1635,animal,1
-112,4,2,11.5346,8.3586,Town2,env2,1,zuckerberg,4.774,face,1
-113,4,2,11.5346,8.3586,Town2,env2,2,cucumber,2.1987,object,1
-114,4,2,11.5346,8.3586,Town2,env2,3,cat,1.384,animal,1
-169,5,9,127.0564,24.6877,Town2,env2,1,zuckerburg,5.0973,face,1
-170,5,9,127.0564,24.6877,Town2,env2,2,cat,9.6123,animal,1
-171,5,9,127.0564,24.6877,Town2,env2,3,cucumber,9.9763,object,1
-34,1,12,473.36,92.15,Town3,env3,1,panda,77.097,animal,0
-35,1,12,473.36,92.15,Town3,env3,2,grapes,8.3228,object,0
-36,1,12,473.36,92.15,Town3,env3,3,jim,6.7283,face,0
-55,2,7,115.6877,29.1234,Town3,env3,1,emma watson,17.9785,face,1
-56,2,7,115.6877,29.1234,Town3,env3,2,screwdriver,5.0157,object,1
-57,2,7,115.6877,29.1234,Town3,env3,3,?,6.1272,animal,0
-103,3,11,151.436,15.9866,Town3,env3,1,bear,8.8029,animal,1
-104,3,11,151.436,15.9866,Town3,env3,2,emma,3.3036,face,1
-105,3,11,151.436,15.9866,Town3,env3,3,screwdriver,3.8783,object,1
-115,4,3,19.9338,8.2557,Town3,env3,1,bear,3.4378,animal,1
-116,4,3,19.9338,8.2557,Town3,env3,2,emma,2.104,face,1
-117,4,3,19.9338,8.2557,Town3,env3,3,screwdriver,2.7119,object,1
-157,5,5,74.6642,16.489,Town3,env3,1,emma,6.5291,face,1
-158,5,5,74.6642,16.489,Town3,env3,2,screwdriver,5.1751,object,1
-159,5,5,74.6642,16.489,Town3,env3,3,bear,4.783,animal,1
-31,1,11,405.8318,67.4826,Town4,env4,1,?,65.8187,face,0
-32,1,11,405.8318,67.4826,Town4,env4,2,?,0.9908,animal,0
-33,1,11,405.8318,67.4826,Town4,env4,3,?,0.6714,object,0
-40,2,2,21.077,15.5184,Town4,env4,1,paul mcartney,11.9725,face,0
-41,2,2,21.077,15.5184,Town4,env4,2,?,2.8166,animal,0
-42,2,2,21.077,15.5184,Town4,env4,3,?,0.7274,object,0
-82,3,4,61.054,14.4261,Town4,env4,1,saw,9.2582,object,1
-83,3,4,61.054,14.4261,Town4,env4,2,crocodile ,3.5983,animal,1
-84,3,4,61.054,14.4261,Town4,env4,3,natalie,1.5679,face,1
-121,4,5,36.7896,18.3696,Town4,env4,1,natalie ,12.2241,face,1
-122,4,5,36.7896,18.3696,Town4,env4,2,saw,1.8885,object,1
-123,4,5,36.7896,18.3696,Town4,env4,3,crocodile,4.2551,animal,1
-145,5,1,1.0012,16.2548,Town4,env4,1,crocodile,12.3173,animal,1
-146,5,1,1.0012,16.2548,Town4,env4,2,saw,2.1673,object,1
-147,5,1,1.0012,16.2548,Town4,env4,3,natalie,1.7662,face,1
-19,1,7,257.0548,47.059,Town5,env5,1,Emma watson,32.1509,face,0
-20,1,7,257.0548,47.059,Town5,env5,2,screwdriver,13.3787,object,0
-21,1,7,257.0548,47.059,Town5,env5,3,?,1.5276,animal,0
-43,2,3,36.6423,41.7929,Town5,env5,1,benedict cumberbund,24.7534,face,1
-44,2,3,36.6423,41.7929,Town5,env5,2,saw,12.3267,object,0
-45,2,3,36.6423,41.7929,Town5,env5,3,crocodile,4.711,animal,0
-73,3,1,1.0011,16.4163,Town5,env5,1,benedict,5.9648,face,1
-74,3,1,1.0011,16.4163,Town5,env5,2,flamingco,8.3675,animal,1
-75,3,1,1.0011,16.4163,Town5,env5,3,hammer,2.0802,object,1
-118,4,4,28.2304,8.5188,Town5,env5,1,benedict,3.7822,face,1
-119,4,4,28.2304,8.5188,Town5,env5,2,hammer,1.9034,object,1
-120,4,4,28.2304,8.5188,Town5,env5,3,flamingco,2.8312,animal,1
-148,5,2,17.302,37.7215,Town5,env5,1,benedict,4.3222,face,1
-149,5,2,17.302,37.7215,Town5,env5,2,?,32.4139,object,0
-150,5,2,17.302,37.7215,Town5,env5,3,?,0.9835,animal,0
-28,1,10,381.2897,24.4968,Town6,env6,1,flaminco,17.4246,animal,0
-29,1,10,381.2897,24.4968,Town6,env6,2,zuckerberg,5.5912,face,0
-30,1,10,381.2897,24.4968,Town6,env6,3,?,1.4788,object,0
-37,2,1,1.0021,20.0281,Town6,env6,1,taylor swift,7.3239,face,1
-38,2,1,1.0021,20.0281,Town6,env6,2,tape measure,6.412,object,1
-39,2,1,1.0021,20.0281,Town6,env6,3,cow,6.2882,animal,1
-94,3,8,113.8524,13.4817,Town6,env6,1,taylor swift,7.6413,face,1
-95,3,8,113.8524,13.4817,Town6,env6,2,cow,3.6805,animal,1
-96,3,8,113.8524,13.4817,Town6,env6,3,tape measure,2.1581,object,1
-130,4,8,78.4331,8.9682,Town6,env6,1,taylor swift,4.9277,face,1
-131,4,8,78.4331,8.9682,Town6,env6,2,cow,1.4549,animal,1
-132,4,8,78.4331,8.9682,Town6,env6,3,tape measure,2.5837,object,1
-178,5,12,175.1859,8.4975,Town6,env6,1,taylor,3.5379,face,1
-179,5,12,175.1859,8.4975,Town6,env6,2,cow,2.31,animal,1
-180,5,12,175.1859,8.4975,Town6,env6,3,tape measure,2.6478,object,1
 1,1,1,1.001,56.5061,Town7,env7,1,taylor swift,17.6003,face,0
 2,1,1,1.001,56.5061,Town7,env7,2,?,37.879,animal,0
 3,1,1,1.001,56.5061,Town7,env7,3,?,1.023,object,0
-52,2,6,100.7618,14.879,Town7,env7,1,jim,8.3651,face,1
-53,2,6,100.7618,14.879,Town7,env7,2,drill,1.3036,object,1
-54,2,6,100.7618,14.879,Town7,env7,3,giraffe,5.2085,animal,1
-100,3,10,142.8905,8.5034,Town7,env7,1,jim,5.214,face,1
-101,3,10,142.8905,8.5034,Town7,env7,2,drill,1.2643,object,1
-102,3,10,142.8905,8.5034,Town7,env7,3,giraffe,2.0232,animal,1
-109,4,1,1.0016,10.4923,Town7,env7,1,jim,5.6563,face,1
-110,4,1,1.0016,10.4923,Town7,env7,2,drill,1.1596,object,1
-111,4,1,1.0016,10.4923,Town7,env7,3,giraffe,3.6722,animal,1
-154,5,4,61.2298,13.388,Town7,env7,1,jim,9.8438,face,1
-155,5,4,61.2298,13.388,Town7,env7,2,drill,1.1744,object,1
-156,5,4,61.2298,13.388,Town7,env7,3,griaffe,2.3679,animal,1
-10,1,4,168.6245,14.9217,Town8,env8,1,puppy,5.1613,animal,1
-11,1,4,168.6245,14.9217,Town8,env8,2,beyonce,5.3278,face,1
-12,1,4,168.6245,14.9217,Town8,env8,3,drill,4.4309,object,0
-46,2,4,78.4823,10.3135,Town8,env8,1,puppies,4.6398,animal,1
-47,2,4,78.4823,10.3135,Town8,env8,2,beyonce,1.9844,face,1
-48,2,4,78.4823,10.3135,Town8,env8,3,oranges,3.6874,object,1
-85,3,5,75.5217,8.3755,Town8,env8,1,puppy,3.2066,animal,1
-86,3,5,75.5217,8.3755,Town8,env8,2,beyonce,2.3115,face,1
-87,3,5,75.5217,8.3755,Town8,env8,3,orange,2.8554,object,1
-127,4,7,71.9459,6.4464,Town8,env8,1,puppy,2.4864,animal,1
-128,4,7,71.9459,6.4464,Town8,env8,2,beyonce,1.9115,face,1
-129,4,7,71.9459,6.4464,Town8,env8,3,orange,2.0468,object,1
-160,5,6,91.1999,7.4743,Town8,env8,1,puppy,2.6813,animal,1
-161,5,6,91.1999,7.4743,Town8,env8,2,oragnes,1.5911,object,1
-162,5,6,91.1999,7.4743,Town8,env8,3,beyonce,3.2002,face,1
 4,1,2,57.5524,61.3862,Town9,env9,1,paul mcartney,12.6232,face,1
 5,1,2,57.5524,61.3862,Town9,env9,2,flaminco,41.4742,animal,0
 6,1,2,57.5524,61.3862,Town9,env9,3,/,7.287,object,0
+7,1,3,118.984,49.5949,Town12,env12,1,apple,13.4423,object,1
+8,1,3,118.984,49.5949,Town12,env12,2,zooey,4.2069,face,1
+9,1,3,118.984,49.5949,Town12,env12,3,panda,31.9438,animal,1
+10,1,4,168.6245,14.9217,Town8,env8,1,puppy,5.1613,animal,1
+11,1,4,168.6245,14.9217,Town8,env8,2,beyonce,5.3278,face,1
+12,1,4,168.6245,14.9217,Town8,env8,3,drill,4.4309,object,0
+13,1,5,183.5915,18.4992,Town10,env10,1,duck,7.3634,animal,1
+14,1,5,183.5915,18.4992,Town10,env10,2,katy perry,4.9434,face,1
+15,1,5,183.5915,18.4992,Town10,env10,3,?,6.1904,object,0
+16,1,6,202.1361,54.8728,Town2,env2,1,zuckeberg,12.0597,face,1
+17,1,6,202.1361,54.8728,Town2,env2,2,?,41.8744,animal,0
+18,1,6,202.1361,54.8728,Town2,env2,3,?,0.937,object,0
+19,1,7,257.0548,47.059,Town5,env5,1,Emma watson,32.1509,face,0
+20,1,7,257.0548,47.059,Town5,env5,2,screwdriver,13.3787,object,0
+21,1,7,257.0548,47.059,Town5,env5,3,?,1.5276,animal,0
+22,1,8,304.1598,53.3305,Town11,env11,1,?,51.923,face,0
+23,1,8,304.1598,53.3305,Town11,env11,2,?,0.7191,animal,0
+24,1,8,304.1598,53.3305,Town11,env11,3,?,0.6865,object,0
+25,1,9,357.5362,23.7083,Town1,env1,1,johnny depp,20.3473,face,0
+26,1,9,357.5362,23.7083,Town1,env1,2,?,2.3506,animal,0
+27,1,9,357.5362,23.7083,Town1,env1,3,?,1.0086,object,0
+28,1,10,381.2897,24.4968,Town6,env6,1,flaminco,17.4246,animal,0
+29,1,10,381.2897,24.4968,Town6,env6,2,zuckerberg,5.5912,face,0
+30,1,10,381.2897,24.4968,Town6,env6,3,?,1.4788,object,0
+31,1,11,405.8318,67.4826,Town4,env4,1,?,65.8187,face,0
+32,1,11,405.8318,67.4826,Town4,env4,2,?,0.9908,animal,0
+33,1,11,405.8318,67.4826,Town4,env4,3,?,0.6714,object,0
+34,1,12,473.36,92.15,Town3,env3,1,panda,77.097,animal,0
+35,1,12,473.36,92.15,Town3,env3,2,grapes,8.3228,object,0
+36,1,12,473.36,92.15,Town3,env3,3,jim,6.7283,face,0
+37,2,1,1.0021,20.0281,Town6,env6,1,taylor swift,7.3239,face,1
+38,2,1,1.0021,20.0281,Town6,env6,2,tape measure,6.412,object,1
+39,2,1,1.0021,20.0281,Town6,env6,3,cow,6.2882,animal,1
+40,2,2,21.077,15.5184,Town4,env4,1,paul mcartney,11.9725,face,0
+41,2,2,21.077,15.5184,Town4,env4,2,?,2.8166,animal,0
+42,2,2,21.077,15.5184,Town4,env4,3,?,0.7274,object,0
+43,2,3,36.6423,41.7929,Town5,env5,1,benedict cumberbund,24.7534,face,1
+44,2,3,36.6423,41.7929,Town5,env5,2,saw,12.3267,object,0
+45,2,3,36.6423,41.7929,Town5,env5,3,crocodile,4.711,animal,0
+46,2,4,78.4823,10.3135,Town8,env8,1,puppies,4.6398,animal,1
+47,2,4,78.4823,10.3135,Town8,env8,2,beyonce,1.9844,face,1
+48,2,4,78.4823,10.3135,Town8,env8,3,oranges,3.6874,object,1
+49,2,5,88.8427,11.8724,Town11,env11,1,johnny depp,4.6008,face,1
+50,2,5,88.8427,11.8724,Town11,env11,2,drill,5.518,object,0
+51,2,5,88.8427,11.8724,Town11,env11,3,?,1.7515,animal,0
+52,2,6,100.7618,14.879,Town7,env7,1,jim,8.3651,face,1
+53,2,6,100.7618,14.879,Town7,env7,2,drill,1.3036,object,1
+54,2,6,100.7618,14.879,Town7,env7,3,giraffe,5.2085,animal,1
+55,2,7,115.6877,29.1234,Town3,env3,1,emma watson,17.9785,face,1
+56,2,7,115.6877,29.1234,Town3,env3,2,screwdriver,5.0157,object,1
+57,2,7,115.6877,29.1234,Town3,env3,3,?,6.1272,animal,0
+58,2,8,144.8581,8.9714,Town12,env12,1,apples,5.1395,object,1
+59,2,8,144.8581,8.9714,Town12,env12,2,zooey,2.0394,face,1
+60,2,8,144.8581,8.9714,Town12,env12,3,panda,1.7904,animal,1
+61,2,9,153.8763,30.3205,Town2,env2,1,zuckeberg,9.0251,face,1
+62,2,9,153.8763,30.3205,Town2,env2,2,cucumber,2.9198,object,1
+63,2,9,153.8763,30.3205,Town2,env2,3,drill,18.3735,object,0
+64,2,10,184.2447,8.424,Town10,env10,1,grapes,4.624,object,1
+65,2,10,184.2447,8.424,Town10,env10,2,katy perry,2.3034,face,1
+66,2,10,184.2447,8.424,Town10,env10,3,duck,1.4947,animal,1
 67,2,11,192.7156,21.8968,Town9,env9,1,paul mcartney,14.5829,face,1
 68,2,11,192.7156,21.8968,Town9,env9,2,goat,2.5754,animal,1
 69,2,11,192.7156,21.8968,Town9,env9,3,carrots,4.7366,object,0
+70,2,12,214.659,16.9803,Town1,env1,1,george clooney,10.2834,face,1
+71,2,12,214.659,16.9803,Town1,env1,2,zebra,2.6793,animal,1
+72,2,12,214.659,16.9803,Town1,env1,3,>,4.0156,object,0
+73,3,1,1.0011,16.4163,Town5,env5,1,benedict,5.9648,face,1
+74,3,1,1.0011,16.4163,Town5,env5,2,flamingco,8.3675,animal,1
+75,3,1,1.0011,16.4163,Town5,env5,3,hammer,2.0802,object,1
+76,3,2,17.4592,8.3578,Town10,env10,1,duck,3.013,animal,1
+77,3,2,17.4592,8.3578,Town10,env10,2,katy perry,2.5597,face,1
+78,3,2,17.4592,8.3578,Town10,env10,3,grapes,2.7832,object,1
+79,3,3,25.8591,35.1529,Town2,env2,1,zuckerberg,5.5013,face,1
+80,3,3,25.8591,35.1529,Town2,env2,2,cucumbe,4.4863,object,1
+81,3,3,25.8591,35.1529,Town2,env2,3,cat,25.1635,animal,1
+82,3,4,61.054,14.4261,Town4,env4,1,saw,9.2582,object,1
+83,3,4,61.054,14.4261,Town4,env4,2,crocodile ,3.5983,animal,1
+84,3,4,61.054,14.4261,Town4,env4,3,natalie,1.5679,face,1
+85,3,5,75.5217,8.3755,Town8,env8,1,puppy,3.2066,animal,1
+86,3,5,75.5217,8.3755,Town8,env8,2,beyonce,2.3115,face,1
+87,3,5,75.5217,8.3755,Town8,env8,3,orange,2.8554,object,1
+88,3,6,83.9392,14.884,Town1,env1,1,george,7.5358,face,1
+89,3,6,83.9392,14.884,Town1,env1,2,zebra,2.4387,animal,1
+90,3,6,83.9392,14.884,Town1,env1,3,lettuce,4.9078,object,1
+91,3,7,98.8654,14.9453,Town12,env12,1,zooey,5.7905,face,1
+92,3,7,98.8654,14.9453,Town12,env12,2,apple,6.0102,object,1
+93,3,7,98.8654,14.9453,Town12,env12,3,panda,3.1428,animal,1
+94,3,8,113.8524,13.4817,Town6,env6,1,taylor swift,7.6413,face,1
+95,3,8,113.8524,13.4817,Town6,env6,2,cow,3.6805,animal,1
+96,3,8,113.8524,13.4817,Town6,env6,3,tape measure,2.1581,object,1
 97,3,9,127.3763,15.4721,Town9,env9,1,paul mccartney,9.0694,face,1
 98,3,9,127.3763,15.4721,Town9,env9,2,wrench,5.4144,object,1
 99,3,9,127.3763,15.4721,Town9,env9,3,goat,0.9864,animal,1
+100,3,10,142.8905,8.5034,Town7,env7,1,jim,5.214,face,1
+101,3,10,142.8905,8.5034,Town7,env7,2,drill,1.2643,object,1
+102,3,10,142.8905,8.5034,Town7,env7,3,giraffe,2.0232,animal,1
+103,3,11,151.436,15.9866,Town3,env3,1,bear,8.8029,animal,1
+104,3,11,151.436,15.9866,Town3,env3,2,emma,3.3036,face,1
+105,3,11,151.436,15.9866,Town3,env3,3,screwdriver,3.8783,object,1
+106,3,12,167.4662,9.3645,Town11,env11,1,johnny depp,5.3729,face,1
+107,3,12,167.4662,9.3645,Town11,env11,2,elephant,2.7829,animal,1
+108,3,12,167.4662,9.3645,Town11,env11,3,carrot,1.2067,object,1
+109,4,1,1.0016,10.4923,Town7,env7,1,jim,5.6563,face,1
+110,4,1,1.0016,10.4923,Town7,env7,2,drill,1.1596,object,1
+111,4,1,1.0016,10.4923,Town7,env7,3,giraffe,3.6722,animal,1
+112,4,2,11.5346,8.3586,Town2,env2,1,zuckerberg,4.774,face,1
+113,4,2,11.5346,8.3586,Town2,env2,2,cucumber,2.1987,object,1
+114,4,2,11.5346,8.3586,Town2,env2,3,cat,1.384,animal,1
+115,4,3,19.9338,8.2557,Town3,env3,1,bear,3.4378,animal,1
+116,4,3,19.9338,8.2557,Town3,env3,2,emma,2.104,face,1
+117,4,3,19.9338,8.2557,Town3,env3,3,screwdriver,2.7119,object,1
+118,4,4,28.2304,8.5188,Town5,env5,1,benedict,3.7822,face,1
+119,4,4,28.2304,8.5188,Town5,env5,2,hammer,1.9034,object,1
+120,4,4,28.2304,8.5188,Town5,env5,3,flamingco,2.8312,animal,1
+121,4,5,36.7896,18.3696,Town4,env4,1,natalie ,12.2241,face,1
+122,4,5,36.7896,18.3696,Town4,env4,2,saw,1.8885,object,1
+123,4,5,36.7896,18.3696,Town4,env4,3,crocodile,4.2551,animal,1
+124,4,6,55.2003,16.705,Town1,env1,1,george,10.8236,face,1
+125,4,6,55.2003,16.705,Town1,env1,2,zebra,2.1195,animal,1
+126,4,6,55.2003,16.705,Town1,env1,3,lettuce,3.7601,object,1
+127,4,7,71.9459,6.4464,Town8,env8,1,puppy,2.4864,animal,1
+128,4,7,71.9459,6.4464,Town8,env8,2,beyonce,1.9115,face,1
+129,4,7,71.9459,6.4464,Town8,env8,3,orange,2.0468,object,1
+130,4,8,78.4331,8.9682,Town6,env6,1,taylor swift,4.9277,face,1
+131,4,8,78.4331,8.9682,Town6,env6,2,cow,1.4549,animal,1
+132,4,8,78.4331,8.9682,Town6,env6,3,tape measure,2.5837,object,1
+133,4,9,87.442,7.8554,Town11,env11,1,johnny depp,3.503,face,1
+134,4,9,87.442,7.8554,Town11,env11,2,elephant,3.0549,animal,1
+135,4,9,87.442,7.8554,Town11,env11,3,carrot,1.2955,object,1
+136,4,10,95.3381,9.0621,Town10,env10,1,duck,2.5827,animal,1
+137,4,10,95.3381,9.0621,Town10,env10,2,grapes,4.3433,object,1
+138,4,10,95.3381,9.0621,Town10,env10,3,katy perry,2.1343,face,1
 139,4,11,104.441,8.8158,Town9,env9,1,mccartney,4.3043,face,1
 140,4,11,104.441,8.8158,Town9,env9,2,wrench,3.2707,object,1
 141,4,11,104.441,8.8158,Town9,env9,3,goat,1.239,animal,1
+142,4,12,113.2975,6.8153,Town12,env12,1,zooey,4.5421,face,1
+143,4,12,113.2975,6.8153,Town12,env12,2,apple,1.1848,object,1
+144,4,12,113.2975,6.8153,Town12,env12,3,panda,1.0866,animal,1
+145,5,1,1.0012,16.2548,Town4,env4,1,crocodile,12.3173,animal,1
+146,5,1,1.0012,16.2548,Town4,env4,2,saw,2.1673,object,1
+147,5,1,1.0012,16.2548,Town4,env4,3,natalie,1.7662,face,1
+148,5,2,17.302,37.7215,Town5,env5,1,benedict,4.3222,face,1
+149,5,2,17.302,37.7215,Town5,env5,2,?,32.4139,object,0
+150,5,2,17.302,37.7215,Town5,env5,3,?,0.9835,animal,0
+151,5,3,55.0692,6.1137,Town12,env12,1,zooey,3.6808,face,1
+152,5,3,55.0692,6.1137,Town12,env12,2,panda,1.104,animal,1
+153,5,3,55.0692,6.1137,Town12,env12,3,apple,1.3273,object,1
+154,5,4,61.2298,13.388,Town7,env7,1,jim,9.8438,face,1
+155,5,4,61.2298,13.388,Town7,env7,2,drill,1.1744,object,1
+156,5,4,61.2298,13.388,Town7,env7,3,griaffe,2.3679,animal,1
+157,5,5,74.6642,16.489,Town3,env3,1,emma,6.5291,face,1
+158,5,5,74.6642,16.489,Town3,env3,2,screwdriver,5.1751,object,1
+159,5,5,74.6642,16.489,Town3,env3,3,bear,4.783,animal,1
+160,5,6,91.1999,7.4743,Town8,env8,1,puppy,2.6813,animal,1
+161,5,6,91.1999,7.4743,Town8,env8,2,oragnes,1.5911,object,1
+162,5,6,91.1999,7.4743,Town8,env8,3,beyonce,3.2002,face,1
+163,5,7,98.7203,15.4098,Town1,env1,1,george,11.5449,face,1
+164,5,7,98.7203,15.4098,Town1,env1,2,zebra,2.3266,animal,1
+165,5,7,98.7203,15.4098,Town1,env1,3,lettuce,1.5366,object,1
+166,5,8,114.1762,12.8334,Town11,env11,1,johnny depp,6.9522,face,1
+167,5,8,114.1762,12.8334,Town11,env11,2,elephant,2.5197,animal,1
+168,5,8,114.1762,12.8334,Town11,env11,3,carrots,3.3597,object,1
+169,5,9,127.0564,24.6877,Town2,env2,1,zuckerburg,5.0973,face,1
+170,5,9,127.0564,24.6877,Town2,env2,2,cat,9.6123,animal,1
+171,5,9,127.0564,24.6877,Town2,env2,3,cucumber,9.9763,object,1
 172,5,10,151.7902,13.9652,Town9,env9,1,mccartney,4.305,face,1
 173,5,10,151.7902,13.9652,Town9,env9,2,wrench,2.4,object,1
 174,5,10,151.7902,13.9652,Town9,env9,3,goat,7.2584,animal,1
+175,5,11,165.8013,9.3384,Town10,env10,1,duck,2.5531,animal,1
+176,5,11,165.8013,9.3384,Town10,env10,2,katy,1.1997,face,1
+177,5,11,165.8013,9.3384,Town10,env10,3,grapes,5.5838,object,1
+178,5,12,175.1859,8.4975,Town6,env6,1,taylor,3.5379,face,1
+179,5,12,175.1859,8.4975,Town6,env6,2,cow,2.31,animal,1
+180,5,12,175.1859,8.4975,Town6,env6,3,tape measure,2.6478,object,1
