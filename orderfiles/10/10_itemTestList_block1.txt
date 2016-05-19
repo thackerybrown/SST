@@ -1,0 +1,28 @@
+index	imgID	imgFile
+<<<<<<< HEAD
+1	Town3	env3
+2	Town7	env7
+3	Town6	env6
+4	Town9	env9
+5	Town10	env10
+6	Town5	env5
+7	Town2	env2
+8	Town1	env1
+9	Town11	env11
+10	Town8	env8
+11	Town4	env4
+12	Town12	env12
+=======
+1	Town5	env5
+2	Town10	env10
+3	Town7	env7
+4	Town3	env3
+5	Town8	env8
+6	Town6	env6
+7	Town4	env4
+8	Town1	env1
+9	Town2	env2
+10	Town11	env11
+11	Town12	env12
+12	Town9	env9
+>>>>>>> 2980465eb7c7df15dfa811f12ea0e4e699b0e45e
