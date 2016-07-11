@@ -1,0 +1,15 @@
+expName	groupName	Date	subjectID	questionLabel	rawRating	isReversed	adjustedRating	respRT	subScaleName	subScaleNum	promptNum	
+SST	post1	07-10-16	23	Q1	4	0	4	3.4354	generalSOD	4	1	
+SST	post1	07-10-16	23	Q2	4	0	4	1.7762	generalSOD	4	1	
+SST	post1	07-10-16	23	Q3a	3	0	3	9.4494	route	3	1	
+SST	post1	07-10-16	23	Q3b	4	0	4	2.864	landmark	1	1	
+SST	post1	07-10-16	23	Q3c	4	0	4	4.6602	survey	2	1	
+SST	post1	07-10-16	23	Q4a	3	0	3	10.0331	survey	2	1	
+SST	post1	07-10-16	23	Q4b	3	0	3	12.792	route	3	1	
+SST	post1	07-10-16	23	Q4c	4	0	4	2.4093	landmark	1	1	
+SST	post1	07-10-16	23	Q5	5	0	5	6.1751	compass	5	1	
+SST	post1	07-10-16	23	Q6	5	0	5	2.3545	compass	5	1	
+SST	post1	07-10-16	23	Q7a	4	0	4	5.8269	surveySpatial	6	1	
+SST	post1	07-10-16	23	Q7b	4	0	4	2.2526	verbalSpatial	7	1	
+SST	post1	07-10-16	23	Q8	5	0	5	4.8232	generalSOD	4	1	
+SST	post1	07-10-16	23	Q9	5	0	5	8.0385	generalSOD	4	1	
