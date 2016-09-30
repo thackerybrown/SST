@@ -1,0 +1,13 @@
+index	imgID	imgFile
+1	Town11	env11
+2	Town7	env7
+3	Town8	env8
+4	Town1	env1
+5	Town3	env3
+6	Town9	env9
+7	Town10	env10
+8	Town6	env6
+9	Town12	env12
+10	Town5	env5
+11	Town2	env2
+12	Town4	env4
