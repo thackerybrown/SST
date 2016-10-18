@@ -102,20 +102,20 @@ def add_subinfo(data, info_dict, col_name):
     return data
     
 # Plotting functions
-def plot_environment(env, dp, proj):
+def plot_environment(env, dp, proj, dirs):
 
     fig = plt.figure(figsize=(4, 4))
     plt.ylim(0,60)
     plt.xlim(0,60)
     
-    buildings = pd.read_csv(op.join(op.expanduser('~'), 'Experiments/SST/data', 'building_coords.csv'))
-	
+    buildings = pd.read_csv(op.join(dirs['basedir'], 'data', 'building_coords.csv'))
+
     if env in buildings.env.unique():
-		
-		coords = buildings[buildings.env == env]
-		plt.scatter(coords.x, coords.y,  
-					s=25, marker='.', color='gray')
-	
+
+        coords = buildings[buildings.env == env]
+        plt.scatter(coords.x, coords.y,  
+                    s=25, marker='.', color='gray')
+
     goal_types = proj['goals'][env].keys()
     for goal_type in goal_types:
         goal = proj['goals'][env][goal_type]
@@ -129,8 +129,8 @@ def plot_environment(env, dp, proj):
     return fig, ax
 
 
-def plot_paths(env, subj, dp, proj):
-    fig, ax = plot_environment(env, dp, proj)
+def plot_paths(env, subj, dp, proj, dirs):
+    fig, ax = plot_environment(env, dp, proj, dirs)
     plt.scatter(dp[(dp.env == env) & (dp.subid == subj) & (dp.c3 == "PandaEPL_avatar")].x.astype(float),  
                 dp[(dp.env == env) & (dp.subid == subj) & (dp.c3 == "PandaEPL_avatar")].y.astype(float),
                 s=.5, marker='.', alpha=.3)
