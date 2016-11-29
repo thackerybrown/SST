@@ -13,3 +13,48 @@ Error in sst_run (line 113)
 
 Error in sst (line 58)
     sst_run(subID,thePath);
+Error using load
+Unable to read file 43_itemTest_cat: No such file or directory.
+
+Error in sst_run (line 101)
+                    load(cat_saveName);
+
+Error in sst (line 58)
+    sst_run(subID,thePath);
+Undefined function or variable "prevData".
+
+Error in sst_run (line 113)
+                [itemTestData(block_num), S] = sst_itemTest(thePath,listName,S,block_num,saveName,prevData);
+
+Error in sst (line 58)
+    sst_run(subID,thePath);
+Error using load
+Unable to read file 43_itemTest_cat: No such file or directory.
+
+Error in sst_run (line 101)
+                    load(cat_saveName);
+
+Error in sst (line 58)
+    sst_run(subID,thePath);
+Undefined function or variable "prevData".
+
+Error in sst_run (line 113)
+                [itemTestData(block_num), S] = sst_itemTest(thePath,listName,S,block_num,saveName,prevData);
+
+Error in sst (line 58)
+    sst_run(subID,thePath);
+Error using load
+Unable to read file 43_itemTest_cat: No such file or directory.
+
+Error in sst_run (line 101)
+                    load(cat_saveName);
+
+Error in sst (line 58)
+    sst_run(subID,thePath);
+Undefined function or variable "prevData".
+
+Error in sst_run (line 113)
+                [itemTestData(block_num), S] = sst_itemTest(thePath,listName,S,block_num,saveName,prevData);
+
+Error in sst (line 58)
+    sst_run(subID,thePath);
