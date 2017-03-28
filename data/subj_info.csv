@@ -1,6 +1,6 @@
 subid,group,remove
-1,control,
-2,control,
+1,control,1
+2,control,1
 3,control,
 4,control,
 5,control,
@@ -28,7 +28,7 @@ subid,group,remove
 34,stress,
 35,stress,
 38,stress,
-39,stress,
+39,stress,1
 40,stress,
 41,stress,
 43,stress,
@@ -36,3 +36,7 @@ subid,group,remove
 45,control,
 46,stress,
 48,control,
+49,stress,
+50,control,
+54,stress,
+55,stress,
