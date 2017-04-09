@@ -1,5 +1,7 @@
 #! /usr/bin/env python
 
+print 'v2'
+
 import os
 import re
 import sys
@@ -116,13 +118,14 @@ def plot_environment(env, dp, proj, dirs):
         plt.scatter(coords.x, coords.y,  
                     s=25, marker='.', color='gray')
 
+    goals = pd.read_csv(op.join(dirs['navdir'], 'item_coordinates.csv'))
     goal_types = proj['goals'][env].keys()
     for goal_type in goal_types:
         goal = proj['goals'][env][goal_type]
         color = proj['palette'][goal_type]
 
-        plt.scatter(dp[(dp.env == env) & (dp.c3 == goal)].x.astype(float),  
-                    dp[(dp.env == env) & (dp.c3 == goal)].y.astype(float),  
+        plt.scatter(goals.loc[goals.item == goal].x.astype(float),  
+                    goals.loc[goals.item == goal].y.astype(float),  
                     s=100, marker='o', c=color, label=goal_type)
     plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
     ax = fig.get_axes()[0]
