@@ -133,7 +133,7 @@ def plot_paths(env, subj, dp, proj, dirs):
     fig, ax = plot_environment(env, dp, proj, dirs)
     plt.scatter(dp[(dp.env == env) & (dp.subid == subj) & (dp.c3 == "PandaEPL_avatar")].x.astype(float),  
                 dp[(dp.env == env) & (dp.subid == subj) & (dp.c3 == "PandaEPL_avatar")].y.astype(float),
-                s=.5, marker='.', alpha=.3)
+                s=5, marker='o', alpha=1)
     ax = fig.get_axes()[0]
     return fig, ax
     
