@@ -110,7 +110,7 @@ def plot_environment(env, dp, proj, dirs):
     plt.ylim(0,60)
     plt.xlim(0,60)
     
-    buildings = pd.read_csv(op.join(dirs['basedir'], 'data', 'building_coords.csv'))
+    buildings = pd.read_csv(op.join(dirs['navdir'], 'analysis', 'building_coords.csv'))
 
     if env in buildings.env.unique():
 
@@ -118,7 +118,7 @@ def plot_environment(env, dp, proj, dirs):
         plt.scatter(coords.x, coords.y,  
                     s=25, marker='.', color='gray')
 
-    goals = pd.read_csv(op.join(dirs['navdir'], 'item_coordinates.csv'))
+    goals = pd.read_csv(op.join(dirs['navdir'], 'analysis', 'item_coordinates.csv'))
     goal_types = proj['goals'][env].keys()
     for goal_type in goal_types:
         goal = proj['goals'][env][goal_type]
